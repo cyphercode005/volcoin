@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import ParalexScrol from './components/ParalexScrol';
 import PurchaseVolcoin from './components/PurchaseVolcoin';
-import Mid from './components/Mid';
+import Content from './components/Content';
 import WhyUs from './components/WhyUs';
 import OurTeam from './components/OurTeam';
 import RoadMap from './components/RoadMap';
@@ -15,7 +15,7 @@ function App() {
     <Navbar/>
     <PurchaseVolcoin/>
     <ParalexScrol/>
-    <Mid/>
+    <Content/>
     <WhyUs/>
     <OurTeam/>
     <ParalexScrol/>

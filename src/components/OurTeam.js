@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function OurTeam() {
   return (
-<div className='pl-16 mt-12 text-white pb-12'>
+<div className=' pl-8 lg:pl-16 xl:pl-16 mt-10 text-white'>
         <div className=' justify-between flex'>
-        <div className='w-1/2 pt-20'> <div> <img src="ourteam1.png" alt=''/> </div> <p className='mt-16 text-4xl'>Our team etc etc lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p></div>
+        <div className='w-full lg:w-1/2 xl:w-1/2 lg:pt-20 xl:pt-20'> <div> <img className='h-24 lg:h-72 xl:h-72' src="ourteam1.png" alt=''/> </div> <p className='mt-16 text-4xl'>Our team etc etc lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p></div>
         <div> <img className='h-96' src="ourteam2.png" alt="" /> </div>
     </div>
     <div className='pr-16 mt-16 flex justify-between'>
