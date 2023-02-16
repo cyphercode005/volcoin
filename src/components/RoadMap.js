@@ -2,16 +2,16 @@ import React from "react";
 
 export default function RoadMap() {
   return (
-    <div className="pl-16 text-white flex justify-between">
-      <div className="mt-36 w-4/5">
-        <span className="text-9xl"> Our Roadmap </span>
-        <p className=" pl-3 mt-12 text-md w-3/5 ">
+    <div className="pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
+      <div className=" mt-16 lg:mt-36 xl:mt-36 lg:w-4/5 xl:w-4/5">
+        <span className=" text-4xl lg:text-9xl xl:text-9xl"> Our Roadmap </span>
+        <p className=" pl-3 mt-6 lg:mt-12 xl:mt-12 text-md lg:w-3/5 xl:w-3/5">
           With volatility a constant threat to any crypto currency trader, we
           are offering the first ever coin which will allow you to hedge against
           the unpredictable swings in the market.
         </p>
-        <div className="flex " >
-        <section className="pl-12 pb-10 mt-16 w-3/5 ml-3 border border-gray-300">
+        <div className="flex flex-col lg:flex-row xl:flex-row" >
+        <section className="pl-5 lg:pl-12 xl:pl-12 pb-10 mt-16 lg:w-3/5 xl:w-3/5 ml-5 lg:ml-3 xl:ml-3 border border-gray-300">
           <img className="mt-12 mb-12 w-16" src="roadmap1.png" alt="" />
           <span className="text-sm text-yellow-300"> Phase Three</span>
           <h1 className=" pt-3 text-3xl w-1/2">
