@@ -109,7 +109,69 @@ export default function ParalexScrol() {
                 "transform",
                 "translate3d(" + transformAmount * -1 + "px, 0, 0)"
               );
-          }, 10);
+          }, 100);
+          setTimeout(function () {
+            container
+              .find(".scrolling-text .scrolling-text-content")
+              .css("transform", "skewX(0)");
+          }, 500);
+
+          // Boundaries
+          if (transformAmount < leftBound) {
+            var activeText = getActiveScrollingText("left");
+            activeText.css({
+              left:
+                Math.round(leftBound - scrollingTextWidth - startLetterIndent) +
+                "px",
+            });
+            leftBound = parseInt(activeText.css("left"), 10);
+            rightBound =
+              leftBound +
+              scrollingTextWidth +
+              scrollAmountBoundary +
+              startLetterIndent;
+          } else if (transformAmount > rightBound) {
+            var activeText = getActiveScrollingText("right");
+            activeText.css({
+              left:
+                Math.round(
+                  rightBound +
+                    scrollingTextWidth -
+                    scrollAmountBoundary +
+                    startLetterIndent
+                ) + "px",
+            });
+            rightBound += scrollingTextWidth + startLetterIndent;
+            leftBound =
+              rightBound -
+              scrollingTextWidth -
+              scrollAmountBoundary -
+              startLetterIndent;
+          }
+        });
+        $(document.body).on("touchmove", function (e) {
+          var delta = e.originalEvent.deltaY;
+
+          if (delta > 0) {
+            // going down
+            transformAmount += transformSpeed * transformDirection;
+            container
+              .find(".scrolling-text .scrolling-text-content")
+              .css("transform", "skewX(10deg)");
+          } else {
+            transformAmount -= transformSpeed * transformDirection;
+            container
+              .find(".scrolling-text .scrolling-text-content")
+              .css("transform", "skewX(-10deg)");
+          }
+          setTimeout(function () {
+            container
+              .find(".scrolling-text")
+              .css(
+                "transform",
+                "translate3d(" + transformAmount * -1 + "px, 0, 0)"
+              );
+          }, 100);
           setTimeout(function () {
             container
               .find(".scrolling-text .scrolling-text-content")
@@ -152,6 +214,7 @@ export default function ParalexScrol() {
       });
     }
   });
+
 
   return (
     <> 
