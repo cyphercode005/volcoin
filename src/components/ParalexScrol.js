@@ -218,16 +218,16 @@ export default function ParalexScrol() {
   return (
     <>
       <div className="w-screen h-80 lg:h-screen xl:h-screen flex my-5 relative overflow:hidden lg:pl-8 xl:pl-8 lg:pr-2 xl:pr-2">
-        <div className="text-white bg-yellow-300 w-1/12 mb-16 lg:mb-36 xl:mb-36"></div>
-        <div className="text-white bg-yellow-300 w-1/5	mt-3 lg:mt-6 lg:mt-6 mb-12 lg:mb-28 xl:mb-28">
+        <div className="text-white para-scroll w-1/12 mb-16 lg:mb-36 xl:mb-36"></div>
+        <div className="text-white para-scroll w-1/5	mt-3 lg:mt-6 lg:mt-6 mb-12 lg:mb-28 xl:mb-28">
         </div>
-        <div className="text-white bg-yellow-300 w-1/5	mt-6 lg:mt-12 xl:mt-12 mb-9 lg:mb-20 xl:mb-20">
+        <div className="text-white para-scroll w-1/5	mt-6 lg:mt-12 xl:mt-12 mb-9 lg:mb-20 xl:mb-20">
         </div>
-        <div className="text-white bg-yellow-300 w-1/5	mt-9 lg:mt-20 xl:mt-20 mb-6 lg:mb-12 xl:mb-12">
+        <div className="text-white para-scroll w-1/5	mt-9 lg:mt-20 xl:mt-20 mb-6 lg:mb-12 xl:mb-12">
         </div>
-        <div className="text-white bg-yellow-300 w-1/5	mt-12 lg:mt-28 xl:mt-28 mb-3 lg:mb-6 xl:mb-6">
+        <div className="text-white para-scroll w-1/5	mt-12 lg:mt-28 xl:mt-28 mb-3 lg:mb-6 xl:mb-6">
         </div>
-        <div className="text-white bg-yellow-300 w-1/12	mt-16 lg:mt-36 xl:mt-36">
+        <div className="text-white para-scroll w-1/12	mt-16 lg:mt-36 xl:mt-36">
         </div>
         <div className=" mt-0 w-full absolute">
           <div className="container relative w-screen overflow-hidden">

@@ -24,10 +24,8 @@ export default function PurchaseVolcoin() {
       </div>
       <div className="mt-10">
         <div>
-          {" "}
-          <button className=" bg-gradient-to-r from-yellow-200 to-yellow-400 rounded text-black px-2 lg:px-4 lg:px-4 py-1 lg:py-2 xl:py-1">
-            {" "}
-            PURCHASE VOLCOIN →{" "}
+          <button className="para-scroll rounded text-black px-2 lg:px-4 lg:px-4 py-1 lg:py-2 xl:py-1">
+            PURCHASE VOLCOIN →
           </button>
         </div>
         <div className="text-yellow-200 pt-1 pr-10 lg:pr-10 xl:pr-10">
