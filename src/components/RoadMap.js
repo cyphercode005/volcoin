@@ -3,7 +3,7 @@ import React from "react";
 export default function RoadMap() {
   return (
     <div className="w-screen pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
-      <div className=" lg:block xl:block mt-2 lg:mt-36 xl:mt-36 lg:w-4/5 xl:w-4/5">
+      <div className=" lg:block xl:block mt-2 lg:mt-24 xl:mt-24 lg:w-4/5 xl:w-4/5">
         <span className=" text-4xl lg:text-9xl xl:text-9xl"> Our Roadmap </span>
         <p className="mr-12 lg:mr-0 xl:mr-0 pl-3 mt-6 lg:mt-12 xl:mt-12 text-md lg:w-3/5 xl:w-3/5">
           With volatility a constant threat to any crypto currency trader, we
