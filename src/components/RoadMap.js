@@ -3,7 +3,7 @@ import React from "react";
 export default function RoadMap() {
   return (
     <div className="w-screen pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
-      <div className="absolute lg:block xl:block mt-16 lg:mt-36 xl:mt-36 lg:w-4/5 xl:w-4/5">
+      <div className=" lg:block xl:block mt-2 lg:mt-36 xl:mt-36 lg:w-4/5 xl:w-4/5">
         <span className=" text-4xl lg:text-9xl xl:text-9xl"> Our Roadmap </span>
         <p className="mr-12 lg:mr-0 xl:mr-0 pl-3 mt-6 lg:mt-12 xl:mt-12 text-md lg:w-3/5 xl:w-3/5">
           With volatility a constant threat to any crypto currency trader, we
@@ -11,7 +11,7 @@ export default function RoadMap() {
           the unpredictable swings in the market.
         </p>
         <div className="flex flex-col-reverse lg:flex-row xl:flex-row" >
-        <section className="mr-20 lg:mr-0 xl:mr-0 pl-5 lg:pl-12 xl:pl-12 pb-8 mt-8 lg:mt-16 xl:mt-16 lg:w-3/5 xl:w-3/5 ml-5 lg:ml-3 xl:ml-3 border border-gray-300">
+        <section className="mr-1 lg:mr-0 xl:mr-0 pl-5 lg:pl-12 xl:pl-12 pb-8 mt-8 lg:mt-16 xl:mt-16 lg:w-3/5 xl:w-3/5 ml-5 lg:ml-3 xl:ml-3 border border-gray-300">
           <img className="mt-8 lg:mt-12 xl:mt-12 w-12 pb-4 lg:pb-8 xl:pb-8" src="roadmap1.png" alt="" />
           <span className="text-sm text-yellow-300"> Phase Three</span>
           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
@@ -59,8 +59,8 @@ export default function RoadMap() {
         </ul>
         </div>
       </div>
-      <div className="pl-16 lg:pl-9 xl:pl-9 lg:left-2/3 xl:left-2/3 relative lg:block xl:block justify-end">
-        <div className="flex justify-end"> <img className="w-72 lg:w-96 xl:w-96" src="roadmap2.png" alt="" /> <div> </div></div>
+      <div className="justify-end mt-16 lg:mt-0 xl:mt-0">
+        <div className="flex justify-end"> <img className="h-96 lg:h-full xl:h-full w-96" src="roadmap2.png" alt="" /> <div> </div></div>
       </div>
     </div>
   );
