@@ -217,8 +217,7 @@ export default function RoadMap() {
   )};
   return (
     <div className="w-screen pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
-      <div className="absolute lg:block xl:block mt-16 lg:mt-36 xl:mt-36 lg:w-4/5 xl:w-4/5">
-      {/* <div className="lg:block xl:block mt-16 lg:mt-36 xl:mt-36 lg:w-4/5 xl:w-4/5"> */}
+      <div className="mt-16 lg:mt-36 xl:mt-36 lg:w-4/5 xl:w-4/5 absolute">
         <span className=" text-4xl lg:text-9xl xl:text-9xl"> Our Roadmap </span>
         <p className="mr-12 lg:mr-0 xl:mr-0 pl-3 mt-6 lg:mt-12 xl:mt-12 text-md lg:w-3/5 xl:w-3/5">
           With volatility a constant threat to any crypto currency trader, we
@@ -230,21 +229,21 @@ export default function RoadMap() {
         <img className="mt-8 lg:mt-12 xl:mt-12 w-12" src="roadmap1.png" alt="" />
         <div id="content" className=" pt-4 lg:pt-8 xl:pt-8">  </div>
         </section>
-        <ul className="mt-10 lg:mt-20 xl:mt-20 pl-8 lg:pl-20 xl:pl-20 ml-3 lg:ml-3 xl:ml-3 flex lg:flex-col xl:flex-col lg:list-disc xl:list-disc lg:gap-0 xl:gap-0">
-            <li> <button className=" text-gray-300 px-3" onClick={funOne}> <span className=" text-xs lg:text-xl xl:text-xl"> Phase1</span></button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 px-3" onClick={funTwo}> <span className="text-xs lg:text-xl xl:text-xl"> Phase2 </span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 px-3" onClick={funThree}> <span className="text-xs lg:text-xl xl:text-xl"> Phase3</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 px-3" onClick={funFour}> <span className="text-xs lg:text-xl xl:text-xl"> Phase4</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 px-3" onClick={funFive}> <span className="text-xs lg:text-xl xl:text-xl"> Phase5</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 px-3" onClick={funSix}> <span className="text-xs lg:text-xl xl:text-xl"> Phase6</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 px-3" onClick={funSeven}> <span className="text-xs lg:text-xl xl:text-xl"> Phase7</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 px-3" onClick={funEight}> <span className="text-xs lg:text-xl xl:text-xl"> Phase8</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 px-3" onClick={funNine}> <span className="text-xs lg:text-xl xl:text-xl"> Phase9</span> </button> </li>
+        <ul className="mt-10 lg:mt-20 xl:mt-20 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 grid grid-cols-5 grid-flow-row lg:flex xl:flex lg:flex-col xl:flex-col lg:list-disc xl:list-disc lg:gap-0 xl:gap-0">
+            <li> <button className=" text-gray-300 mx-3" onClick={funOne}> <span className=" text-xs lg:text-xl xl:text-xl"> Phase-1</span></button> </li>
+            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funTwo}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-2 </span> </button> </li>
+            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funThree}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-3</span> </button> </li>
+            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funFour}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-4</span> </button> </li>
+            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funFive}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-5</span> </button> </li>
+            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funSix}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-6</span> </button> </li>
+            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funSeven}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-7</span> </button> </li>
+            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funEight}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-8</span> </button> </li>
+            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funNine}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-9</span> </button> </li>
         </ul>
         </div>
       </div>
-      {/* <div className="pl-16 lg:pl-9 xl:pl-9 lg:left-2/3 xl:left-2/3 lg:block xl:block justify-end"> */}
-      <div className="pl-16 lg:pl-9 xl:pl-9 lg:left-2/3 xl:left-2/3 relative lg:block xl:block justify-end">
+      <div className="pl-24 lg:pl-9 xl:pl-9 lg:left-2/3 xl:left-2/3 lg:relative xl:relative justify-end">
+      {/* <div className=" justify-end"> */}
         <div className="flex justify-end"> <img className="w-72 lg:w-96 xl:w-96" src="roadmap2.png" alt="" /> <div> </div></div>
       </div>
     </div>
