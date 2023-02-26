@@ -1,127 +1,109 @@
 import React from "react";
-import ReactDOM from 'react-dom';
-
-
 
 export default function RoadMap() {
-  function funOne(){
-    ReactDOM.render(
-    <div innerHTML>
-          <span className="text-sm text-yellow-300"> Q2 2022 </span>
-          <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
-          Whitepaper and static website
-          </h1>
-          <section className="mt-4 lg:mt-7 xl:mt-7">
-              <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
+  const content = {
+    "one" : <>
+    <span className="text-sm text-yellow-300"> Q2 2022 </span>
+           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
+           Whitepaper and static website
+           </h1>
+           <section className="mt-4 lg:mt-7 xl:mt-7">
+               <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
                 Crystalise the idea and the mechanics of VolCoin
-                </p>
-            </div>
-              <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Use a static website to showcase the idea                </p>
-            </div>
-              <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Market feasibility research                </p>
-            </div>
-          </section>
-          </div>,
-    document.getElementById("content")
-  )};
-  function funTwo(){
-    ReactDOM.render(
-      <div innerHTML>
-      <span className="text-sm text-yellow-300"> Q3 2022 </span>
-          <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
-          Form the team          </h1>
-          <section className="mt-4 lg:mt-7 xl:mt-7">
-              <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Find like minded and skilled people who can work together to bring the idea home                </p>
-            </div>
-              <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Re-make the website to make it more professional and appealing               </p>
-            </div>
-          </section>
-          </div>,
-    document.getElementById("content")
-  )};
-  function funThree(){
-    ReactDOM.render(
-      <div innerHTML>
-      <span className="text-sm text-yellow-300"> Q1 2023 </span>
-          <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
-            Create GVolCoins and Marketing
-          </h1>
-          <section className="mt-4 lg:mt-7 xl:mt-7">
-              <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                  The governance tokens will be used to attract initial
-                  investment from investors looking to enter into the project
-                  early at a discount, whitelist distribution.
-                </p>
-            </div>
-              <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Start marketing organically using Twitter, Discord and Telegram
-                </p>
-            </div>
-              <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Work on giveaways to attract early adopters
-                </p>
-            </div>
-              <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Legal preparation for regulation compliance
-                </p>
-            </div>
-          </section>
-          </div>,
-    document.getElementById("content")
-  )};
-  function funFour(){
-    ReactDOM.render(
-      <div innerHTML>
-      <span className="text-sm text-yellow-300"> Q1 2023 </span>
-          <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
-          VolCoin Tokens          </h1>
-          <section className="mt-4 lg:mt-7 xl:mt-7">
-              <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Create VolCoin tokens that use the Deribit Implied volatility index as they have the largest market share of Bitcoin option contracts
-                </p>
-            </div>
-              <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Brand Identity                </p>
-            </div>
-              <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
-                <p className="text-xs lg:text-sm xl:text-sm">
-                Digital content collaborations                </p>
-            </div>
-          </section>
-          </div>,
-    document.getElementById("content")
-  )};
-  function funFive(){
-    ReactDOM.render(
-      <div innerHTML>
-      <span className="text-sm text-yellow-300"> Q2 2023 </span>
+                 </p>
+             </div>
+               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Use a static website to showcase the idea                </p>
+             </div>
+               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Market feasibility research                </p>
+             </div>
+           </section>
+
+           </>,
+           "two": <> 
+           <span className="text-sm text-yellow-300"> Q3 2022 </span>
+           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
+           Form the team          </h1>
+           <section className="mt-4 lg:mt-7 xl:mt-7">
+               <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Find like minded and skilled people who can work together to bring the idea home                </p>
+             </div>
+               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Re-make the website to make it more professional and appealing               </p>
+             </div>
+           </section>
+       
+           </>,
+           "three": <>
+           <span className="text-sm text-yellow-300"> Q1 2023 </span>
+           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
+             Create GVolCoins and Marketing
+           </h1>
+           <section className="mt-4 lg:mt-7 xl:mt-7">
+               <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                   The governance tokens will be used to attract initial
+                   investment from investors looking to enter into the project
+                   early at a discount, whitelist distribution.
+                 </p>
+             </div>
+               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Start marketing organically using Twitter, Discord and Telegram
+                 </p>
+             </div>
+               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Work on giveaways to attract early adopters
+                 </p>
+             </div>
+               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Legal preparation for regulation compliance
+                 </p>
+             </div>
+           </section>
+           </>,
+           "four": <>
+           <span className="text-sm text-yellow-300"> Q1 2023 </span>
+           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
+           VolCoin Tokens          </h1>
+           <section className="mt-4 lg:mt-7 xl:mt-7">
+               <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Create VolCoin tokens that use the Deribit Implied volatility index as they have the largest market share of Bitcoin option contracts
+                 </p>
+             </div>
+               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Brand Identity                </p>
+             </div>
+               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
+                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <p className="text-xs lg:text-sm xl:text-sm">
+                 Digital content collaborations                </p>
+             </div>
+           </section>
+           </>,
+           "five": <>
+ <span className="text-sm text-yellow-300"> Q2 2023 </span>
           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-2/3 xl:w-2/3">
           Gather Feedback and Apply Changes          </h1>
           <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -132,13 +114,9 @@ export default function RoadMap() {
                 </p>
             </div>
           </section>
-          </div>,
-    document.getElementById("content")
-  )};
-  function funSix(){
-    ReactDOM.render(
-      <div innerHTML>
-      <span className="text-sm text-yellow-300"> Q2 2023 </span>
+           </>,
+           "six": <>
+<span className="text-sm text-yellow-300"> Q2 2023 </span>
           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
           Launch VolCoin          </h1>
           <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -169,13 +147,9 @@ export default function RoadMap() {
                 Web3 Platform optimisation                </p>
             </div>
           </section>
-          </div>,
-    document.getElementById("content")
-  )};
-  function funSeven(){
-    ReactDOM.render(
-      <div innerHTML>
-      <span className="text-sm text-yellow-300"> Q3 2024 </span>
+           </>,
+           "seven": <>
+<span className="text-sm text-yellow-300"> Q3 2024 </span>
           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
           Staking          </h1>
           <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -186,13 +160,9 @@ export default function RoadMap() {
                 </p>
             </div>
           </section>
-          </div>,
-    document.getElementById("content")
-  )};
-  function funEight(){
-    ReactDOM.render(
-      <div innerHTML>
-      <span className="text-sm text-yellow-300"> Q4 2024 </span>
+           </>,
+           "eight": <>
+<span className="text-sm text-yellow-300"> Q4 2024 </span>
           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-1/2 xl:w-1/2">
           Onward          </h1>
           <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -203,21 +173,46 @@ export default function RoadMap() {
                 </p>
             </div>
           </section>
-          </div>,
-    document.getElementById("content")
-  )};
-  function funNine(){
-    ReactDOM.render(
-      <div innerHTML>
-      <span className="text-sm text-yellow-300"></span>
+           </>,
+           "nine": <>
+<span className="text-sm text-yellow-300"></span>
           <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl lg:w-4/5 xl:w-4/5">
          Work on the next Volatility Coin or Commodity to be Tokenised          </h1>
-          </div>,
-    document.getElementById("content")
-  )};
+           </>}
+
+  const [active,setActive] = React.useState(1);
+  const handleOnClick = (ev, id) => {
+    setActive(id+1)
+  }
+
+  const getContent = (number) => {
+    switch(number){
+      case 1:
+        return content["one"]
+      case 2:
+        return content["two"]
+      case 3:
+        return content["three"]
+      case 4:
+        return content["four"]
+      case 5:
+        return content["five"]
+      case 6:
+        return content["six"]
+      case 7:
+        return content["seven"]
+      case 8:
+        return content["eight"]
+      case 9:
+        return content["nine"]
+      default: 
+      return null
+    }
+  }
+
   return (
     <div className="w-screen pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
-      <div className="mt-16 lg:mt-36 xl:mt-36 lg:w-4/5 xl:w-4/5 absolute">
+      <div className="mt-4 lg:mt-16 xl:mt-16 lg:w-4/5 xl:w-4/5">
         <span className=" text-4xl lg:text-9xl xl:text-9xl"> Our Roadmap </span>
         <p className="mr-12 lg:mr-0 xl:mr-0 pl-3 mt-6 lg:mt-12 xl:mt-12 text-md lg:w-3/5 xl:w-3/5">
           With volatility a constant threat to any crypto currency trader, we
@@ -225,27 +220,18 @@ export default function RoadMap() {
           the unpredictable swings in the market.
         </p>
         <div className="flex flex-col-reverse lg:flex-row xl:flex-row" >
-        <section className="mr-20 lg:mr-0 xl:mr-0 pl-5 lg:pl-12 xl:pl-12 pb-8 mt-8 lg:mt-16 xl:mt-16 lg:w-3/5 xl:w-3/5 ml-5 lg:ml-3 xl:ml-3 border border-gray-300">
-        <img className="mt-8 lg:mt-12 xl:mt-12 w-12" src="roadmap1.png" alt="" />
-        <div id="content" className=" pt-4 lg:pt-8 xl:pt-8">  </div>
+        <section className="mr-20 lg:mr-0 xl:mr-0 pl-5 lg:pl-12 xl:pl-12 pb-6 mt-8 lg:mt-8 xl:mt-8 w-4/5 lg:w-3/5 xl:w-3/5 ml-5 lg:ml-3 xl:ml-3 border border-gray-300">
+        <img className="mt-8 lg:mt-8 xl:mt-8 w-12" src="roadmap1.png" alt="" />
+        <div id="content" className=" pt-4 lg:pt-8 xl:pt-8"> 
+        {getContent(active)}
+        </div>
         </section>
-        <ul className="mt-10 lg:mt-20 xl:mt-20 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 grid grid-cols-5 grid-flow-row lg:flex xl:flex lg:flex-col xl:flex-col lg:list-disc xl:list-disc lg:gap-0 xl:gap-0">
-            <li> <button className=" text-gray-300 mx-3" onClick={funOne}> <span className=" text-xs lg:text-xl xl:text-xl"> Phase-1</span></button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funTwo}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-2 </span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funThree}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-3</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funFour}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-4</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funFive}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-5</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funSix}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-6</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funSeven}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-7</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funEight}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-8</span> </button> </li>
-            <li> <button className="lg:mt-5 xl:mt-5 text-gray-300 mx-3" onClick={funNine}> <span className="text-xs lg:text-xl xl:text-xl"> Phase-9</span> </button> </li>
+        <ul className="mt-10 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3  xl:ml-3 flex lg:flex-col xl:flex-col ">
+           { ["Phase 1","Phase 2","Phase 3","Phase 4","Phase 5","Phase 6","Phase 7","Phase 8","Phase 9"].map((item, idx) => (<button  className={`flex ${active === idx+1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e,idx)}>  <img className="h-5 lg:h-7 xl:h-7" src="union.png" alt="" /> <span className="text-xs lg:text-xl xl:text-xl px-0 lg:px-5 xl:px-5 invisible lg:visible xl:visible"> {item}</span></button>))}
         </ul>
         </div>
       </div>
-      <div className="pl-24 lg:pl-9 xl:pl-9 lg:left-2/3 xl:left-2/3 lg:relative xl:relative justify-end">
-      {/* <div className=" justify-end"> */}
-        <div className="flex justify-end"> <img className="w-72 lg:w-96 xl:w-96" src="roadmap2.png" alt="" /> <div> </div></div>
-      </div>
+       <img className="mt-12 lg:mt-0 xl:mt-0 w-28 lg:w-80 xl:w-80 h-72 lg:h-full xl:h-full" src="roadmap2.png" alt="" /> 
     </div>
   );
 }

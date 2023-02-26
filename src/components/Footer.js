@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
 
-<footer className="pl-4 lg:pl-12 xl:pl-12 pr-4 lg:pr-12 xl:pr-12  bg-gray-900 mt-28 md:mt-16 pt-4 lg:pt-6 xl:pt-6 lg:mt-16 xl:mt-16 pb-4 lg:pb-8 xl:pb-8 shadow bg-black">
+<footer className="pl-4 lg:pl-12 xl:pl-12 pr-4 lg:pr-12 xl:pr-12  pt-4 lg:pt-6 xl:pt-6 mt-6 lg:mt-0 xl:mt-0 pb-4 lg:pb-8 xl:pb-8 shadow bg-black">
     <div className="flex items-center justify-between">
         <a href="/" className="flex items-center">
             <img src="logo.png" className="h-6 lg:h-8 xl:h-8 mr-3" alt="Flowbite Logo" />
