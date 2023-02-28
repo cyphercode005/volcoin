@@ -211,7 +211,7 @@ export default function RoadMap() {
   }
 
   return (
-    <div className="w-screen pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
+    <div className=" pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
       <div className="mt-4 lg:mt-16 xl:mt-16 w-3/4 lg:w-4/5 xl:w-4/5">
         <span className=" text-4xl lg:text-9xl xl:text-9xl"> Our Roadmap </span>
         <p className="mr-12 lg:mr-0 xl:mr-0 pl-3 mt-6 lg:mt-12 xl:mt-12 text-md lg:w-3/5 xl:w-3/5">
@@ -226,7 +226,7 @@ export default function RoadMap() {
         {getContent(active)}
         </div>
         </section>
-        <ul className="mt-10 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 lg:w-1/3 xl:w-1/3 xl:ml-3 flex lg:flex-col xl:flex-col ">
+        <ul className="gap-0 pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-1/2 lg:w-1/3 xl:w-1/3 xl:ml-3 flex lg:flex-col xl:flex-col ">
            { ["Phase 1","Phase 2","Phase 3","Phase 4","Phase 5","Phase 6","Phase 7","Phase 8","Phase 9"].map((item, idx) => (<button  className={`flex ${active === idx+1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e,idx)}>  <img className="h-5 lg:h-7 xl:h-7" src="union.png" alt="" /> <span className="text-xs lg:text-xl xl:text-xl px-0 lg:px-5 xl:px-5 invisible lg:visible xl:visible"> {item}</span></button>))}
         </ul>
         </div>
