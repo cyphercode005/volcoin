@@ -2,6 +2,15 @@ import React from "react";
 
 
 export default function PurchaseVolcoin() {
+  const handleDownload = () => {
+    const url = 'VolCoin.pdf';
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'myfile.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
     <div className="mt-12 lg:mt-16 xl:mt-16 pb-10 pl-10 lg:pl-16 xl:pl-16">
@@ -24,11 +33,13 @@ export default function PurchaseVolcoin() {
       </div>
       <div className="mt-10">
         <div>
-          <button className="para-scroll rounded text-black px-2 lg:px-4 lg:px-4 py-1 lg:py-2 xl:py-1">
+          <button className=" rext-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-md shadow-lime-500/50 dark:shadow-lg dark:shadow-lime-800/80 font-medium rounded-lg text-sm px-5 py-2 text-center">
             PURCHASE VOLCOIN →
           </button>
+          <button onClick={handleDownload} type="button" class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-md shadow-lime-500/50 dark:shadow-lg dark:shadow-lime-800/80 font-medium rounded-lg text-sm px-5 py-2 text-center ml-10 mb-2">DOWNLOAD</button>
+
         </div>
-        <div className="text-yellow-200 pt-1 pr-10 lg:pr-10 xl:pr-10">
+        <div className="text-transparent bg-clip-text bg-gradient-to-r from-lime-300 via-lime-400 to-lime-600  pt-1 pr-10 lg:pr-10 xl:pr-10">
           <span> Early adopters get 20% discount on all coins. </span>
         </div>
       </div>
