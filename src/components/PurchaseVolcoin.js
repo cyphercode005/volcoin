@@ -36,7 +36,7 @@ export default function PurchaseVolcoin() {
           <button className=" rext-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-md shadow-lime-500/50 dark:shadow-lg dark:shadow-lime-800/80 font-medium rounded-lg text-sm px-5 py-2 text-center">
             PURCHASE VOLCOIN →
           </button>
-          <button onClick={handleDownload} type="button" class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-md shadow-lime-500/50 dark:shadow-lg dark:shadow-lime-800/80 font-medium rounded-lg text-sm px-5 py-2 text-center ml-10 mb-2">DOWNLOAD</button>
+          <button onClick={handleDownload} type="button" class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-md shadow-lime-500/50 dark:shadow-lg dark:shadow-lime-800/80 font-medium rounded-lg text-sm px-5 py-2 text-center ml-10 mt-2 lg:mt-0 xl:mt-0 ">DOWNLOAD</button>
 
         </div>
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-lime-300 via-lime-400 to-lime-600  pt-1 pr-10 lg:pr-10 xl:pr-10">
