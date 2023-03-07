@@ -3,10 +3,10 @@ import React from "react";
 
 export default function PurchaseVolcoin() {
   const handleDownload = () => {
-    const url = 'VolCoin.pdf';
+    const url = '/Files/VolCoin-File.pdf';
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', 'myfile.pdf');
+    link.setAttribute('download', 'VolCoin.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

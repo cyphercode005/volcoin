@@ -9,18 +9,18 @@ export default function RoadMap() {
            </h1>
            <section className="mt-4 lg:mt-7 xl:mt-7">
                <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                 Crystalise the idea and the mechanics of VolCoin
                  </p>
              </div>
                <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Use a static website to showcase the idea                </p>
              </div>
                <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Market feasibility research                </p>
              </div>
@@ -33,12 +33,12 @@ export default function RoadMap() {
            Form the team          </h1>
            <section className="mt-4 lg:mt-7 xl:mt-7">
                <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Find like minded and skilled people who can work together to bring the idea home                </p>
              </div>
                <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Re-make the website to make it more professional and appealing               </p>
              </div>
@@ -52,7 +52,7 @@ export default function RoadMap() {
            </h1>
            <section className="mt-4 lg:mt-7 xl:mt-7">
                <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                    The governance tokens will be used to attract initial
                    investment from investors looking to enter into the project
@@ -60,19 +60,19 @@ export default function RoadMap() {
                  </p>
              </div>
                <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Start marketing organically using Twitter, Discord and Telegram
                  </p>
              </div>
                <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Work on giveaways to attract early adopters
                  </p>
              </div>
                <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Legal preparation for regulation compliance
                  </p>
@@ -85,18 +85,18 @@ export default function RoadMap() {
            VolCoin Tokens          </h1>
            <section className="mt-4 lg:mt-7 xl:mt-7">
                <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Create VolCoin tokens that use the Deribit Implied volatility index as they have the largest market share of Bitcoin option contracts
                  </p>
              </div>
                <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Brand Identity                </p>
              </div>
                <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                 <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                 <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                  <p className="text-xs lg:text-sm xl:text-sm">
                  Digital content collaborations                </p>
              </div>
@@ -108,7 +108,7 @@ export default function RoadMap() {
           Gather Feedback and Apply Changes          </h1>
           <section className="mt-4 lg:mt-7 xl:mt-7">
               <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                 <p className="text-xs lg:text-sm xl:text-sm">
                 Amend the underlying index so that it uses a weighted price feed from different exchanges
                 </p>
@@ -121,28 +121,28 @@ export default function RoadMap() {
           Launch VolCoin          </h1>
           <section className="mt-4 lg:mt-7 xl:mt-7">
               <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                 <p className="text-xs lg:text-sm xl:text-sm">
                 Launch the VolCoin token so that it can be traded on the native web3 portal
                 </p>
             </div>
               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                 <p className="text-xs lg:text-sm xl:text-sm">
                 Community expansion                </p>
             </div>
               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                 <p className="text-xs lg:text-sm xl:text-sm">
                 Mass marketing                </p>
             </div>
               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                 <p className="text-xs lg:text-sm xl:text-sm">
                 Team growth                </p>
             </div>
               <div className="flex mt-3 text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                 <p className="text-xs lg:text-sm xl:text-sm">
                 Web3 Platform optimisation                </p>
             </div>
@@ -154,7 +154,7 @@ export default function RoadMap() {
           Staking          </h1>
           <section className="mt-4 lg:mt-7 xl:mt-7">
               <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                 <p className="text-xs lg:text-sm xl:text-sm">
                 Fix staking of VolCoin and GVolCoin so fees can be fed back to coin holders, via an airdrop. Staking returns to be defined according to number of days coins have been staked.
                 </p>
@@ -167,7 +167,7 @@ export default function RoadMap() {
           Onward          </h1>
           <section className="mt-4 lg:mt-7 xl:mt-7">
               <div className="flex text-justify pr-4 lg:pr-16 xl:pr-16">
-                <img className="w-3 h-3 mt-1 mr-2" src="tick.png" alt="" />
+                <img className="w-3 h-3 mt-1 mr-2" src="/Photos/tickRoadMap.png" alt="" />
                 <p className="text-xs lg:text-sm xl:text-sm">
                 Allow the token to be traded with other central exchanges and DEX’s
                 </p>
@@ -221,18 +221,18 @@ export default function RoadMap() {
         </p>
         <div className="flex flex-col-reverse lg:flex-row xl:flex-row" >
         <section className="mr-20 lg:mr-0 xl:mr-0 pl-5 lg:pl-12 xl:pl-12 pb-6 mt-8 lg:mt-8 xl:mt-8 w-4/5 lg:w-3/5 xl:w-3/5 ml-5 lg:ml-3 xl:ml-3 border border-gray-300">
-        <img className="mt-8 lg:mt-8 xl:mt-8 w-12" src="roadmap1.png" alt="" />
+        <img className="mt-8 lg:mt-8 xl:mt-8 w-12" src="/Photos/roadmap1.png" alt="" />
         <div id="content" className=" pt-4 lg:pt-8 xl:pt-8"> 
         {getContent(active)}
         </div>
         </section>
         <ul className="gap-0 pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-1/2 lg:w-1/3 xl:w-1/3 flex lg:flex-col xl:flex-col ">
-           { ["Phase 1","Phase 2","Phase 3","Phase 4","Phase 5","Phase 6","Phase 7","Phase 8","Phase 9"].map((item, idx) => (<button  className={`flex ${active === idx+1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e,idx)}>  <img className="h-5 lg:h-7 xl:h-7" src="union.png" alt="" /> <span className="text-xs lg:text-xl xl:text-xl px-0 lg:px-5 xl:px-5 invisible lg:visible xl:visible"> {item}</span></button>))}
+           { ["Phase 1","Phase 2","Phase 3","Phase 4","Phase 5","Phase 6","Phase 7","Phase 8","Phase 9"].map((item, idx) => (<button  className={`flex ${active === idx+1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e,idx)}>  <img className="h-5 lg:h-7 xl:h-7" src="/Photos/unionRoadMap.png" alt="" /> <span className="text-xs lg:text-xl xl:text-xl px-0 lg:px-5 xl:px-5 invisible lg:visible xl:visible"> {item}</span></button>))}
         </ul>
         </div>
       </div>
       <div className="mt-7 lg:mt-0 xl:mt-0">
-                <img className="w-16 lg:w-80 xl:w-80 h-60 lg:h-full xl:h-full" src="roadmap2.png" alt="" /> 
+                <img className="w-16 lg:w-80 xl:w-80 h-60 lg:h-full xl:h-full" src="/Photos/roadmap2.png" alt="" /> 
 
       </div>
     </div>
