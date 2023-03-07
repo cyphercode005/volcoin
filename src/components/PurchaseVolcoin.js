@@ -13,7 +13,7 @@ export default function PurchaseVolcoin() {
   };
   return (
     <>
-    <div className="mt-12 lg:mt-16 xl:mt-16 pb-10 pl-10 lg:pl-16 xl:pl-16">
+    <div className=" volmed mt-12 lg:mt-16 xl:mt-16 pb-10 pl-10 lg:pl-16 xl:pl-16">
       <div className=" text-white pr-12 text-5xl md:text-6xl lg:pr-40 lg:text-7xl xl:pr-56 xl:text-9xl">
         A coin built on the Volitility of Bitcoin
       </div>
