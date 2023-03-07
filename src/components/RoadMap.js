@@ -226,7 +226,7 @@ export default function RoadMap() {
         {getContent(active)}
         </div>
         </section>
-        <ul className="gap-0 pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-1/2 lg:w-1/3 xl:w-1/3 xl:ml-3 flex lg:flex-col xl:flex-col ">
+        <ul className="gap-0 pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-1/2 lg:w-1/3 xl:w-1/3 flex lg:flex-col xl:flex-col ">
            { ["Phase 1","Phase 2","Phase 3","Phase 4","Phase 5","Phase 6","Phase 7","Phase 8","Phase 9"].map((item, idx) => (<button  className={`flex ${active === idx+1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e,idx)}>  <img className="h-5 lg:h-7 xl:h-7" src="union.png" alt="" /> <span className="text-xs lg:text-xl xl:text-xl px-0 lg:px-5 xl:px-5 invisible lg:visible xl:visible"> {item}</span></button>))}
         </ul>
         </div>
