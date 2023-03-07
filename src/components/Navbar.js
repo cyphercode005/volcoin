@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className='flex flex-1 justify-between	pt-5 mx-1'>
     <section className='flex flex-1 px-4 lg:px-12 xl:px-12'>
-       <img className='h-7 px-2' src="/logo.png" alt="Logo" />
+       <img className='h-7 px-2' src="/Photos/logo.png" alt="Logo" />
         <span className='invisible lg:visible xl:visible text-white'>VOLCOIN</span>
     </section>
     <section className='flex flex-1 lg:flex-none xl:flex-none pr-4 lg:pr-16 xl:pr-16'>

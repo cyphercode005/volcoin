@@ -4,23 +4,20 @@
 
 @font-face {
   font-family: volmed;
-  src: url("/public/volmed.ttf");
+  src: url("/public/Fonts/volmed.ttf");
 }
 @font-face {
   font-family: volreg;
-  src: url("/public/volreg.ttf");
+  src: url("/public//Fonts/volreg.ttf");
 }
-
 .volmed {
   font-family: volmed;
 }
 .volreg {
   font-family: volreg;
 }
-
 body {
   margin: 0;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

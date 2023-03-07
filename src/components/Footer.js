@@ -6,7 +6,7 @@ export default function Footer() {
 <footer className="pl-4 lg:pl-12 xl:pl-12 pr-4 lg:pr-12 xl:pr-12  pt-4 lg:pt-6 xl:pt-6 mt-6 lg:mt-0 xl:mt-0 pb-4 lg:pb-8 xl:pb-8 shadow bg-black">
     <div className="flex items-center justify-between">
         <a href="/" className="flex items-center">
-            <img src="logo.png" className="h-6 lg:h-8 xl:h-8 mr-3" alt="Flowbite Logo" />
+            <img src="/Photos/logo.png" className="h-6 lg:h-8 xl:h-8 mr-3" alt="Flowbite Logo" />
             <span className=" self-center text-lg lg:text-2xl xl:text-2xl font-semibold whitespace-nowrap dark:text-white">VOLCOIN</span>
         </a>
         <ul className="flex flex-wrap items-center text-xs xl:text-sm lg:text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
