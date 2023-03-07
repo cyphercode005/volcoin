@@ -12,16 +12,16 @@ function App() {
   return (
     <>
       <div className="bg-black">
-    <Navbar/>
-    <PurchaseVolcoin/>
-    <ParalexScrol/>
-    <Content/>
-    <WhyUs/>
-    <OurTeam/>
-    <ParalexScrol/>
-<RoadMap/>
-<Footer/>
-    </div>
+        <Navbar />
+        <PurchaseVolcoin />
+        <ParalexScrol />
+        <Content />
+        <WhyUs />
+        <OurTeam />
+        <ParalexScrol />
+        <RoadMap />
+        <Footer />
+      </div>
     </>
   );
 }
