@@ -216,71 +216,71 @@ export default function ParalexScrol() {
   });
   const divContent = [
     <div className="container relative w-screen overflow-visible">
-      <div className="py-1 lg:py-2 xl:py-2 2xl:py-0 scrolling-text inline-block will-change-transform backface-invisible">
-        <span className="text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap ">
+      <div className="py-1 scrolling-text inline-block will-change-transform backface-invisible">
+        <span className="text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap ">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible left-to-right">
-      <div className="py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block	will-change-transform	backface-invisible">
-        <span className="text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap ">
+      <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block	will-change-transform	backface-invisible">
+        <span className="text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap ">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible">
-      <div className="py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block  will-change-transform	backface-invisible">
-        <span className=" text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
+      <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
+        <span className=" text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible left-to-right">
-      <div className="py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block  will-change-transform	backface-invisible">
-        <span className="  text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
+      <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
+        <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible">
-      <div className="py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block  will-change-transform	backface-invisible">
-        <span className=" text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
+      <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
+        <span className=" text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible left-to-right">
-      <div className=" py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block  will-change-transform	backface-invisible">
-        <span className="  text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
+      <div className=" py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
+        <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible">
-      <div className="py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block  will-change-transform	backface-invisible">
-        <span className=" text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
+      <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
+        <span className=" text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible left-to-right">
-      <div className=" py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block  will-change-transform	backface-invisible">
-        <span className="  text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
+      <div className=" py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
+        <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible">
-      <div className="py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block  will-change-transform	backface-invisible">
-        <span className=" text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
+      <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
+        <span className=" text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
           VOLCOIN
         </span>
       </div>
     </div>,
     <div className="container relative w-screen overflow-visible left-to-right">
-      <div className=" py-1 lg:py-3 xl:py-3 2xl:py-4 scrolling-text inline-block  will-change-transform	backface-invisible">
-        <span className="  text-3xl lg:text-7xl xl:text-7xl 2xl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
+      <div className=" py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
+        <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
           VOLCOIN
         </span>
       </div>
@@ -289,17 +289,17 @@ export default function ParalexScrol() {
   return (
     <>
       <div className="w-full h-80 lg:h-screen xl:h-screen flex my-5 relative overflow-hidden">
-        <div className="text-black para-scroll w-32 2xl:w-1/5 mb-16 lg:mb-36 xl:mb-36">
+        <div className="text-black para-scroll w-10 lg:w-36 xl:w-36 xxl:w-60 mb-16 lg:mb-36 xl:mb-36">
         </div>
         <div className="text-black para-scroll w-1/5	mt-3 lg:mt-6 xl:mt-6 mb-12 lg:mb-28 xl:mb-28">
         </div>
-        <div className="text-black para-scroll w-1/5	mt-6 lg:mt-12 xl:mt-12 mb-9 lg:mb-20 xl:mb-20">
+        <div className="text-black para-scroll w-1/5 mt-6 lg:mt-12 xl:mt-12 mb-9 lg:mb-20 xl:mb-20">
         </div>
-        <div className="text-black para-scroll w-1/5	mt-9 lg:mt-20 xl:mt-20 mb-6 lg:mb-12 xl:mb-12">
+        <div className="text-black para-scroll w-1/5 mt-9 lg:mt-20 xl:mt-20 mb-6 lg:mb-12 xl:mb-12">
         </div>
-        <div className="text-black para-scroll w-1/5	mt-12 lg:mt-28 xl:mt-28 mb-3 lg:mb-6 xl:mb-6">
+        <div className="text-black para-scroll w-1/5 mt-12 lg:mt-28 xl:mt-28 mb-3 lg:mb-6 xl:mb-6">
         </div>
-        <div className="text-black para-scroll w-36	2xl:w-1/5 mt-16 lg:mt-36 xl:mt-36">
+        <div className="text-black para-scroll w-10 lg:w-36 xl:w-36 xxl:w-60 mt-16 lg:mt-36 xl:mt-36">
         </div>
         <div className=" mt-0 w-full absolute">
           {divContent.map((content, i) => (
