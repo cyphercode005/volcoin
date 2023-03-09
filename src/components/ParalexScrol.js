@@ -289,7 +289,7 @@ export default function ParalexScrol() {
   return (
     <>
       <div className="w-full h-80 lg:h-screen xl:h-screen flex my-5 relative overflow-hidden">
-        <div className="text-black para-scroll w-10 lg:w-36 xl:w-36 xxl:w-80 mb-16 lg:mb-36 xl:mb-36">
+        <div className="text-black para-scroll w-10 lg:w-36 xl:w-1/5 xxl:w-1/5 mb-16 lg:mb-36 xl:mb-36">
         </div>
         <div className="text-black para-scroll w-1/5	mt-3 lg:mt-6 xl:mt-6 mb-12 lg:mb-28 xl:mb-28">
         </div>
@@ -299,7 +299,7 @@ export default function ParalexScrol() {
         </div>
         <div className="text-black para-scroll w-1/5 mt-12 lg:mt-28 xl:mt-28 mb-3 lg:mb-6 xl:mb-6">
         </div>
-        <div className="text-black para-scroll w-10 lg:w-36 xl:w-36 xxl:w-80 mt-16 lg:mt-36 xl:mt-36">
+        <div className="text-black para-scroll w-10 lg:w-36 xl:w-1/5 xxl:w-1/5 mt-16 lg:mt-36 xl:mt-36">
         </div>
         <div className=" mt-0 w-full absolute">
           {divContent.map((content, i) => (
