@@ -214,79 +214,6 @@ export default function ParalexScrol() {
       });
     }
   });
-  // const divContent = [
-  //   <div className="container relative w-screen overflow-visible">
-  //     <div className="py-1 scrolling-text inline-block will-change-transform backface-invisible">
-  //       <span className="text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap ">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible left-to-right">
-  //     <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block	will-change-transform	backface-invisible">
-  //       <span className="text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap ">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible">
-  //     <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
-  //       <span className=" text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible left-to-right">
-  //     <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
-  //       <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible">
-  //     <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
-  //       <span className=" text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible left-to-right">
-  //     <div className=" py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
-  //       <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible">
-  //     <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
-  //       <span className=" text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible left-to-right">
-  //     <div className=" py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
-  //       <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible">
-  //     <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
-  //       <span className=" text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>,
-  //   <div className="container relative w-screen overflow-visible left-to-right">
-  //     <div className=" py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible">
-  //       <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap	">
-  //         VOLCOIN
-  //       </span>
-  //     </div>
-  //   </div>
-  // ];
-
   const styles = [
     "container relative w-screen overflow-visible",
     "container relative w-screen overflow-visible left-to-right",
@@ -316,16 +243,13 @@ export default function ParalexScrol() {
         <div className="text-black para-scroll w-10 lg:w-36 xl:w-1/3 xxl:w-1/3 mt-16 lg:mt-36 xl:mt-36">
         </div>
         <div className=" mt-0 w-full absolute">
-        {styles.map((i) => (
-          <div key={i} className={`${i}`}>
-            <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible ">
-          <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap">VOLCOIN</span>
-        </div>
-        </div>
-      ))}
-          {/* {divContent.map((content, i) => (
-            <div key={i}>{content}</div>
-          ))} */}
+          {styles.map((i) => (
+            <div key={i} className={`${i}`}>
+              <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible ">
+                <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap">VOLCOIN</span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>
