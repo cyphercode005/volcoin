@@ -230,7 +230,7 @@ export default function RoadMap() {
             </div>
           </section>
           <ul className="gap-0 pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-1/2 lg:w-1/3 xl:w-1/3 flex lg:flex-col xl:flex-col  ">
-            {["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9"].map((item, idx) => (<button className={`flex ${active === idx + 1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e, idx)}> <div className="">  <img className=" h-5 lg:h-7 xl:h-7 2xl:h-7 xxl:h-7  stroke-red-500 hover:stroke-cyan-700" src="/Photos/unionRoadMap.png" alt=""/>   <hr class="items-center w-1/2 border-gray-400 my-2" />  <div class="line"></div>
+            {["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9"].map((item, idx) => (<button className={`flex ${active === idx + 1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e, idx)}> <div className="">  <img className=" h-5 lg:h-7 xl:h-7 2xl:h-7 xxl:h-7" src="/Photos/unionRoadMap.png" alt=""/>
 
 </div> <span className="text-xs lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl px-0 lg:px-5 xl:px-5 invisible lg:visible xl:visible 2xl:visible xxl:visible"> {item}</span></button>))}
           </ul>
