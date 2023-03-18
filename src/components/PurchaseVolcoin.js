@@ -13,18 +13,18 @@ export default function PurchaseVolcoin() {
   };
   return (
     <>
-      <div className="volmed mt-12 lg:mt-16 xl:mt-16 2xl:mt-48 xxl:mt-60 pb-10 pl-4 lg:pl-16 xl:pl-16 ">
+      <div className="volmed mt-12 lg:mt-16 xl:mt-16 2xl:mt-48 xxl:mt-60 mb-10 ml-4 lg:ml-16 xl:ml-16 ">
         <div className=" text-white pr-4 lg:pr-40 xl:pr-56 2xl:pr-56 xxl:pr-96 text-6xl md:text-6xl lg:text-7xl xl:text-9xl 2xl:text-10xl xxl:text-11xl leading-none">
           A coin built on the Volitility of Bitcoin
         </div>
         <div className="flex flex-col lg:flex-row xl:flex-row text-gray-300 mt-10 w-full lg:w-3/5 xl:w-3/5 2xl:w-1/2 xxl:w-1/2 pr-10 lg:pr-0 xl:pr-0 2xl:pr-20 xxl:pr-20 2xl:text-xl xxl:text-xl">
-          <span className="pr-9 lg:pr-20 xl:pr-20 text-justify text-sm">
+          <span className="pr-9 lg:pr-20 xl:pr-20 2xl:pr-20  xxl:pr-20 text-justify text-sm">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
             et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
             felis, ultricies nec, pellentesque eu, pretium quis, sem.
           </span>
-          <span className="hidden lg:block xl:block 2xl:block xxl:block mt-7 lg:mt-0 xl:mt-0 text-justify">
+          <span className="hidden lg:block xl:block 2xl:block xxl:block pr-9 lg:pr-20 xl:pr-20 2xl:pr-20  xxl:pr-20  text-justify text-sm">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
             et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
