@@ -12,7 +12,7 @@ function App() {
   return (
     <>
 {/* <div class="bg-[url('/public/Photos/bg.jpg')]"> */}
-<div class="bg-black">
+<div class="bg-black volmed">
         <Navbar />
         <PurchaseVolcoin />
         <ParalexScrol />
