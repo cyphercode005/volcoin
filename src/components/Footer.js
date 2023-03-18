@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
 
-        <footer className="volmed pl-4 lg:pl-12 xl:pl-12 pr-4 lg:pr-12 xl:pr-12 mt-28 pb-8 lg:pb-20 xl:pb-20 2xl:pb-20 xxl:pb-20 shadow">
+        <footer className="volmed ml-4 lg:ml-12 xl:ml-12 mr-4 lg:mr-12 xl:mr-12 mt-28 pb-8 lg:pb-12 xl:pb-12 2xl:pb-16 xxl:pb-16 shadow">
             <div className="flex lg:items-center xxl:items-center xl:items-center 2xl:items-center justify-between">
                 <ul className='flex flex-col justify-between'>
                 <li href="/" className="flex items-center">

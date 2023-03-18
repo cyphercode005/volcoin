@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WhyUs() {
   return (
-    <div className='volmed pt-20 lg:pt-24 xl:pt-32 2xl:pt-36 xxl:pt-48 pl-4 lg:pl-16 xl:pl-16 2xl:pl-16 xxl:pl-16'>
+    <div className='volmed mt-20 lg:mt-24 xl:mt-32 2xl:mt-36 xxl:mt-48 ml-4 lg:ml-16 xl:ml-16 2xl:ml-16 xxl:ml-16'>
       <div className='justify-between flex'>
         <div className='w-full lg:w-2/3 xl:w-2/3 2xl:w-2/3 xxl:w-2/3 pt-20 lg:pt-16 xl:pt-20 2xl:pt-24 xxl:pt-28'> 
         <img className='h-20 lg:h-28 xl:h-32 2xl:h-36 xxl:h-40' src="/Photos/whyus1.png" alt='' /> 

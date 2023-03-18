@@ -214,7 +214,7 @@ export default function RoadMap() {
   }
 
   return (
-    <div className="volmed pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
+    <div className="volmed ml-4 lg:ml-16 xl:ml-16 text-white flex justify-between">
       <div className="pt-12 lg:mt-16 xl:mt-16 w-3/4 lg:w-4/5 xl:w-4/5">
         <span className=" leading-none text-5xl lg:text-9xl xl:text-9xl 2xl:text-9xl xxl:text-10xl "> Our Roadmap </span>
         <p className="pl-3 pt-6 lg:pt-10 xl:pt-10 2xl:pt-10 xxl:pt-10 text-md lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl lg:w-3/5 xl:w-3/5">
