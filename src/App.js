@@ -11,7 +11,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div className="bg-black">
+{/* <div class="bg-[url('/public/Photos/bg.jpg')]"> */}
+<div class="bg-black">
         <Navbar />
         <PurchaseVolcoin />
         <ParalexScrol />

@@ -5,7 +5,14 @@ module.exports = {
     fontFamily:{
       volCoin:['']
     },
-    extend: {},
+    extend: {
+      spacing: {
+        '100': '32rem',
+        '110': '32rem',
+        '120': '50rem',
+        
+      }
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -19,9 +26,27 @@ module.exports = {
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
-      'xxl': '1920px',
+      '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-    }
+
+      'xxl': '1900px',
+      // => @media (min-width: 1900px) { ... }
+    },
+      fontSize: {
+        sm: '0.8rem',
+        base: '1rem',
+        xl: '1.25rem',
+        '2xl': '1.5rem',
+        '3xl': '1.875rem',
+        '4xl': '2.25rem',
+        '5xl': '48px',
+        '6xl': '60px',
+        '7xl': '72px',
+        '8xl': '96px',
+        '9xl': '128px',
+        '10xl': '9rem',
+        '11xl': '10.5rem',
+      }
   },
   plugins: [],
 }

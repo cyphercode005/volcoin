@@ -64,3 +64,37 @@
   background: linear-gradient(#dff345, #e1f548, #e5fa47, #e1f82f, #e2f83f, #e6fc44, #e1f73d);
 
 }
+
+@font-face {
+  font-family: 'volreg';
+  src: url('/public/volreg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+.volreg {
+  font-family: 'volreg';
+}
+@font-face {
+  font-family: 'volmed';
+  src: url('/public/volmed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+.volmed {
+  font-family: 'volmed';
+}
+
+.text-border {
+  /* border: 2px solid black; */
+  color: transparent;
+  -webkit-text-stroke: 1px black; /* Add black stroke around text */
+}
+
+.line {
+  width: 1px;
+  border: 0;
+  border-right: 2px solid #ccc;
+  margin: 5px 0;
+}

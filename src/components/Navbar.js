@@ -14,14 +14,14 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='flex flex-1 justify-between pt-5 mx-1'>
-      <section className='flex flex-1 px-4 lg:px-12 xl:px-12'>
-        <img className='h-7 px-2' src="/Photos/logo.png" alt="Logo" />
-        <span className='invisible lg:visible xl:visible text-white'>VOLCOIN</span>
-      </section>
-      <section className='flex flex-1 lg:flex-none xl:flex-none pr-4 lg:pr-16 xl:pr-16'>
-        <button className='invisible lg:visible xl:visible rounded text-gray-400 px-3 mx-0 lg:mx-2 xl:mx-2 ' onClick={handleOpenModal}> WHITEPAPER </button>
-        <button className='border border-gray-400 rounded mx-0 lg:mx-2 xl:mx-2 px-1 lg:px-2 xl:px-3 text-xs text-gray-400'> PURCHASE VOLCOIN </button>
+    <nav className='flex flex-1 justify-between pt-5 2xl:pt-9 xxl:pt-10 mx-1'>
+      <section className='flex flex-1 px-4 lg:px-12 xl:px-12 2xl:px-12 xxl:px-12'>
+        <img className='h-6 lg:h-6 xl:h-6 2xl:h-8 xxl:h-9 px-2' src="/Photos/logo.png" alt="Logo" />
+        <span className='invisible lg:visible xl:visible 2xl:visible xxl:visible text-white  text-lg lg:text-lg xl:text-lg 2xl:text-xl xxl:text-2xl'>VOLCOIN</span>
+      </section>  
+      <section className='flex flex-1 lg:flex-none xl:flex-none 2xl:flex-none xxl:flex-none pr-4 lg:pr-16 xl:pr-16'>
+        <button className='invisible lg:visible xl:visible 2xl:visible xxl:visible rounded text-gray-400 px-3 mx-0 lg:mx-2 xl:mx-2 text-xs lg:text-lg xl:text-lg 2xl:text-xl xxl:text-2xl' onClick={handleOpenModal}> WHITEPAPER </button>
+        <button className='border border-gray-400 rounded mx-0 lg:mx-2 xl:mx-2 px-1 lg:px-2 xl:px-3  text-gray-400 text-xs lg:text-lg xl:text-lg 2xl:text-xl xxl:text-2xl'> PURCHASE VOLCOIN </button>
       </section>
       {showModal && (
         <div className='fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center'>

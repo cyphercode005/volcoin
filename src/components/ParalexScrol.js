@@ -229,7 +229,7 @@ export default function ParalexScrol() {
 
   return (
     <>
-      <div className="w-full xl:py-5 xxl:py-10 h-80 lg:h-screen xl:h-screen flex my-5 relative overflow-hidden">
+      <div className="w-full xl:py-0 2xl:py-0 xxl:py-0 h-80 lg:h-screen xl:h-100 2xl:h-110 xxl:h-120 flex my-5 xl:my-0 2xl:my-0 xxl:my-0 relative overflow-hidden">
         <div className="text-black para-scroll w-10 lg:w-36 xl:w-1/3 xxl:w-1/3 mb-16 lg:mb-36 xl:mb-36">
         </div>
         <div className="text-black para-scroll w-1/5	mt-3 lg:mt-6 xl:mt-6 mb-12 lg:mb-28 xl:mb-28">
@@ -245,8 +245,8 @@ export default function ParalexScrol() {
         <div className=" mt-0 w-full absolute">
           {styles.map((i) => (
             <div key={i} className={`${i}`}>
-              <div className="py-1 lg:py-2 xl:py-2 scrolling-text inline-block  will-change-transform	backface-invisible ">
-                <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-9xl scrolling-text-content text-black whitespace-nowrap">VOLCOIN</span>
+              <div className="scrolling-text inline-block  will-change-transform	backface-invisible ">
+                <span className="  text-3xl lg:text-7xl xl:text-7xl xxl:text-10xl scrolling-text-content text-black whitespace-nowrap text-border leading-none">VOLCOIN</span>
               </div>
             </div>
           ))}
