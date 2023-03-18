@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Content() {
   return (
-    <div className='pt-10 lg:pt-16 xl:pt-0 2xl:pt-0 xxl:pt-0 pl-4 lg:pl-16 xl:pl-16 2xl:pl-16 xxl:pl-16'>
+    <div className='volmed pt-10 lg:pt-16 xl:pt-0 2xl:pt-0 xxl:pt-0 pl-4 lg:pl-16 xl:pl-16 2xl:pl-16 xxl:pl-16'>
       <div className='justify-between flex'>
         <div className='w-full lg:w-2/3 xl:w-2/3 2xl:w-2/3 xxl:w-2/3 pt-4 lg:pt-20 xl:pt-20 2xl:pt-20 xxl:pt-20'> 
          <img className='h-20 lg:h-28 xl:h-32 2xl:h-36 xxl:h-40' src="/Photos/content1.png" alt='' /> 

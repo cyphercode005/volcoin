@@ -214,10 +214,10 @@ export default function RoadMap() {
   }
 
   return (
-    <div className=" pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
-      <div className="mt-4 lg:mt-16 xl:mt-16 w-3/4 lg:w-4/5 xl:w-4/5">
-        <span className=" text-4xl lg:text-9xl xl:text-9xl 2xl:text-9xl xxl:text-9xl "> Our Roadmap </span>
-        <p className="mr-12 lg:mr-0 xl:mr-0 pl-3 pt-6 lg:pt-0 xl:pt-0 2xl:pt-0 xxl:pt-0 text-md lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl lg:w-3/5 xl:w-3/5">
+    <div className="volmed pl-4 lg:pl-16 xl:pl-16 text-white flex justify-between">
+      <div className="pt-12 lg:mt-16 xl:mt-16 w-3/4 lg:w-4/5 xl:w-4/5">
+        <span className=" leading-none text-5xl lg:text-9xl xl:text-9xl 2xl:text-9xl xxl:text-10xl "> Our Roadmap </span>
+        <p className="pl-3 pt-6 lg:pt-10 xl:pt-10 2xl:pt-10 xxl:pt-10 text-md lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl lg:w-3/5 xl:w-3/5">
           With volatility a constant threat to any crypto currency trader, we
           are offering the first ever coin which will allow you to hedge against
           the unpredictable swings in the market.
@@ -230,13 +230,13 @@ export default function RoadMap() {
             </div>
           </section>
           <ul className="gap-0 pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-1/2 lg:w-1/3 xl:w-1/3 flex lg:flex-col xl:flex-col  ">
-            {["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9"].map((item, idx) => (<button className={`flex ${active === idx + 1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e, idx)}> <div className="">  <img className=" h-5 lg:h-7 xl:h-7 2xl:h-7 xxl:h-7" src="/Photos/unionRoadMap.png" alt=""/></div> 
+            {["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9"].map((item, idx) => (<button className={`flex ${active === idx + 1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e, idx)}>  <img className=" mx-3 h-5 lg:h-7 xl:h-7 2xl:h-7 xxl:h-7" src="/Photos/unionRoadMap.png" alt=""/> 
 <span className="text-xs lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl px-0 lg:px-5 xl:px-5 hidden lg:block xl:block 2xl:block xxl:block"> {item}</span></button>))}
           </ul>
         </div>
       </div>
-      <div className="mt-7 lg:mt-0 xl:mt-0">
-        <img className="w-16 lg:w-80 xl:w-80 h-60 lg:h-full xl:h-full" src="/Photos/roadmap2.png" alt="" />
+      <div className="">
+        <img className="w-24 lg:w-80 xl:w-80 h-60 lg:h-full xl:h-full" src="/Photos/roadmap2.png" alt="" />
       </div>
     </div>
   );
