@@ -1,6 +1,7 @@
 import React from "react";
-
-
+import { ReactComponent as IconOne } from './UnionOne.svg';
+import { ReactComponent as IconTwo } from './UnionTwo.svg';
+import { ReactComponent as IconThree } from './UnionThree.svg';
 
 export default function RoadMap() {
   const content = {
@@ -182,7 +183,6 @@ export default function RoadMap() {
         Work on the next Volatility Coin or Commodity to be Tokenised          </h1>
     </>
   }
-
   const [active, setActive] = React.useState(1);
   const handleOnClick = (ev, id) => {
     setActive(id + 1)
@@ -223,15 +223,40 @@ export default function RoadMap() {
           the unpredictable swings in the market.
         </p>
         <div className="flex flex-col-reverse lg:flex-row xl:flex-row" >
-          <section className="mr-20 lg:mr-0 xl:mr-0 pl-5 lg:pl-12 xl:pl-12 pb-6 mt-8 lg:mt-8 xl:mt-8 w-4/5 lg:w-1/2 xl:w-1/2 ml-5 lg:ml-3 xl:ml-3 border border-gray-300">
+          <section className="mr-20 lg:mr-0 xl:mr-0 pl-5 lg:pl-12 xl:pl-12 pb-6 mt-8 lg:mt-8 xl:mt-8 w-full lg:w-1/2 xl:w-1/2 ml-5 lg:ml-3 xl:ml-3 border border-gray-300">
             <img className="mt-8 lg:mt-8 xl:mt-8 w-12" src="/Photos/roadmap1.png" alt="" />
             <div id="content" className=" pt-4 lg:pt-8 xl:pt-8">
               {getContent(active)}
             </div>
           </section>
-          <ul className="gap-0 pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-1/2 lg:w-1/3 xl:w-1/3 flex lg:flex-col xl:flex-col  ">
-            {["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9"].map((item, idx) => (<button className={`flex ${active === idx + 1 ? "text-yellow-300" : "text-gray-300"}`} onClick={(e) => handleOnClick(e, idx)}>  <img className=" mx-3 h-5 lg:h-7 xl:h-7 2xl:h-7 xxl:h-7" src="/Photos/unionRoadMap.png" alt=""/> 
-<span className="text-xs lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl px-0 lg:px-5 xl:px-5 hidden lg:block xl:block 2xl:block xxl:block"> {item}</span></button>))}
+          <ul className="volreg gap-0 pr-0 lg:pr-16 xl:pr-16 2xl:pr-16 xxl:pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-full lg:w-1/3 xl:w-1/2">
+            <div className=" w-full relative flex lg:flex-col xl:flex-col 2xl:flex-col xxl:flex-col">
+            <div className="hidden lg:block h-full absolute bg-white w-1 left-3"></div>
+            {["Phase One.", "Phase Two.", "Phase Three.", "Phase Four.", "Phase Five.", "Phase Six.", "Phase Seven.", "Phase Eight.", "Phase Nine."].map((item, idx) => {
+              let colorClass = "";
+              let icon = null;
+              if (idx === 0 || idx === 1) {
+                colorClass = "flex text-white";
+                icon = <IconOne className={`mx-1 h-6 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+              } else if (idx === 2) {
+                colorClass = "flex text-transparent bg-clip-text bg-gradient-to-r from-lime-400 via-yellow-300 to-lime-100";
+                icon = <IconTwo className={`mx-1 h-6 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+              } else {
+                colorClass = "flex text-zinc-700";
+                icon = <IconThree className={`mx-1 h-6 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+              }
+
+              return (
+                <button className={`${colorClass} py-2 px-0.5 lg:px-0 xl:px-0 2xl:px-0 xxl:px-0`} onClick={(e) => handleOnClick(e, idx)}>
+                  {icon}
+                  <span className='text-xs lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl px-0 lg:px-5 xl:px-5 hidden lg:block xl:block 2xl:block xxl:block'>
+                    {item}
+                  </span>
+                </button>
+              );
+            })}
+            </div>
+            
           </ul>
         </div>
       </div>
