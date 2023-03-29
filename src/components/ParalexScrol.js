@@ -1,38 +1,20 @@
 // import $ from "jquery";
-import React from "react";
-export default function ParalexScrol() {// Get a reference to the video element
-  // const video = document.querySelector('video');
-  const video = document.querySelector('video');
-// video.addEventListener('load', function() {
-  // video.play();
-// });
-  
-  // Set a variable to store the video's previous visibility state
-  let wasVisible = false;
-  
-  // Listen for the window's "scroll" event
-  window.addEventListener('scroll', function() {
-    // Check if the video is visible in the viewport
-    const videoRect = video.getBoundingClientRect();
-    const isVisible = videoRect.top < window.innerHeight && videoRect.bottom >= 0;
-  
-    if (isVisible) {
-      // If the video is visible and was previously not visible, play it
-      if (!wasVisible) {
-        video.play();
-        wasVisible = true;
-      }
-    } else {
-      // If the video is not visible and was previously visible, pause it
-      if (wasVisible) {
-        video.pause();
-        wasVisible = false;
-      }
-    }
-  });
-  
+import React from 'react';
 
-  // $(document).ready(function () {
+
+
+export default function ParalexScrol() {
+
+// const  videoRef=useRef(null)
+// useEffect(()=>{
+// window.onscroll=()=>{
+//   if (videoRef.current){
+//     videoRef.current.play();
+//   }
+// };
+// },[]); 
+
+    // $(document).ready(function () {
   //   var containers = $(".container");
 
   //   if (containers.length) {
@@ -259,7 +241,7 @@ export default function ParalexScrol() {// Get a reference to the video element
 
   return (
     <>
-      <div className="w-full h-80 lg:h-screen xl:h-100 2xl:h-110 xxl:h-120 flex relative overflow-hidden">
+      {/* <div className="w-full h-80 lg:h-screen xl:h-100 2xl:h-110 xxl:h-120 flex relative overflow-hidden">
         <div className="text-black para-scroll w-1/12 mb-16 lg:mb-36 xl:mb-36">
         </div>
         <div  className="flex-1 flex">
@@ -273,14 +255,21 @@ export default function ParalexScrol() {// Get a reference to the video element
         </div>
         </div>
         <div className="text-black para-scroll w-1/12 mt-16 lg:mt-36 xl:mt-36">
-        </div>
-        <div className=" mt-0 w-full absolute">
-
-
-<video class="w-full" autoplay muted loop >
-  <source src="Videos/volYellow.mp4" type="video/mp4"/>
-  Your browser does not support the video tag.
-</video>
+        </div> */}
+        <div className=" mt-0 w-full">
+       
+      
+        <video className='h-96'
+      // ref={videoRef}
+      src="/Videos/volNew.mp4"
+      loop={true}
+      autoPlay={true}
+      muted={true}
+      // controls={true}
+    />
+{/* <video id="myVid" width="100%" controls autoplay>
+  <source type="video/mp4" src="/Videos/volNew.mp4"/>
+</video> */}
 {/* <div class="plyr__video-embed">
   <iframe src="/Videos/volYellow.mp4" allowfullscreen allowtransparency allow="autoplay" title=""></iframe>
 </div> */}
@@ -301,7 +290,7 @@ export default function ParalexScrol() {// Get a reference to the video element
               </div>
             </div>
           ))} */}
-        </div>
+        {/* </div> */}
       </div>
     </>
   );
