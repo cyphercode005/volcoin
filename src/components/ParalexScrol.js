@@ -7,7 +7,7 @@ export default function ParalexScrol() {
       <div className="flex relative overflow-hidden">
      <div className='video-container'>
      <video className=''
-      src="/Videos/volVideo.mp4"
+      src="/Videos/ParScrVid1.mp4"
       loop={true}
       autoPlay={true}
       muted={true}

@@ -97,7 +97,7 @@ background-color: #141414;
 
 .video-container {
   position: relative;
-  height: 88vh; /* half of screen height */
+  height: 92vh; /* half of screen height */
   width: 100vw; /* full screen width */
   /* overflow: hidden; */
 }
