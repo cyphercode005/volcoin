@@ -81,3 +81,34 @@
 {
 background-color: #141414; 
 }
+
+.paraCol
+{
+background-color: #141414; 
+}
+
+/* .imojiVolcoin
+{
+  background-color: transparent;
+  color: black;
+} */
+
+@media only screen and (min-width: 768px) {
+
+.video-container {
+  position: relative;
+  height: 88vh; /* half of screen height */
+  width: 100vw; /* full screen width */
+  /* overflow: hidden; */
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+}
