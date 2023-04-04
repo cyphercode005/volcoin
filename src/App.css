@@ -76,6 +76,10 @@
   color: transparent;
   -webkit-text-stroke: 1px #141414; 
 }
+.text-normal {
+  color: #141414;
+  -webkit-text-stroke: 0px; 
+}
 
 .roadMapIcon
 {
@@ -97,9 +101,8 @@ background-color: #141414;
 
 .video-container {
   position: relative;
-  height: 92vh; /* half of screen height */
-  width: 100vw; /* full screen width */
-  /* overflow: hidden; */
+  height: 92vh; 
+  width: 100vw;  
 }
 
 .video-container video {
