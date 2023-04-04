@@ -1,18 +1,18 @@
 import React from 'react';
 
-export default function ParalexScrol() {
 
+export default function ParalexScrol() {
+  
   return (
     <>
       <div className="flex relative overflow-hidden">
      <div className='video-container'>
-     <video className=''
+    <video className=''
       src="/Videos/ParScrVid1.mp4"
       loop={true}
       autoPlay={true}
-      muted={true}
-      // controls={true}
-    />
+      muted={true} />
+    
      </div>
         <div className="absolute w-full flex">
           <div className=" w-1/12 paraCol h-0">
