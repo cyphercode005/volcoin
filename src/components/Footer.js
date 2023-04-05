@@ -11,32 +11,27 @@ export default function Footer() {
                     <span className="self-center text-base lg:text-lg xl:text-lg 2xl:text-xl xxl:text-2xl whitespace-nowrap text-white ">VOLCOIN</span>
                 </li>
                 <li>
-                        <button className='block lg:hidden xl:hidden 2xl:hidden xxl:hidden border border-gray-400 text-sm lg:text-lg xl:text-sm 2xl:text-xl xxl:text-2xl rounded mx-0 lg:mx-2 xl:mx-2 py-1 px-2 lg:px-2 xl:px-3 text-gray-400'> PURCHASE VOLCOIN </button>
+                        <button className='block lg:hidden xl:hidden 2xl:hidden xxl:hidden border btn-simple text-sm lg:text-lg xl:text-sm 2xl:text-xl xxl:text-2xl rounded mx-0 lg:mx-2 xl:mx-2 py-1 px-2 lg:px-2 xl:px-3 text-color'> PURCHASE VOLCOIN </button>
                     </li>
                 </ul>
-                <ul className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row xxl:flex-row flex-wrap text-sm lg:text-sm xl:text-sm 2xl:text-xl xxl:text-2xl text-gray-500 sm:mb-0 dark:text-gray-400 lg:items-center xl:items-center 2xl:items-center xxl:items-center">
+                <ul className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row xxl:flex-row flex-wrap text-sm lg:text-sm xl:text-sm 2xl:text-xl xxl:text-2xl text-color lg:items-center xl:items-center 2xl:items-center xxl:items-center">
                     <li className='flex justify-end mr-2 lg:mr-2 xl:mr-3 2xl:mr-3 xxl:mr-4 my-1 lg:my-0 xl:my-0 2xl:my-0 xxl:my-0'>
-                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/Photos/unionRoadMap.png
-                        " alt="" /><a href="/" className="">WHITEPAPER</a>
+                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/SVGs/UnionThree.svg" alt="" /><a href="/" className="">WHITEPAPER</a>
                     </li>
                     <li className='flex justify-end mr-2 lg:mr-2 xl:mr-3 2xl:mr-3 xxl:mr-4 my-1 lg:my-0 xl:my-0 2xl:my-0 xxl:my-0'>
-                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/Photos/unionRoadMap.png
-                        " alt="" /><a href="/" className="">EMAIL US</a>
+                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/SVGs/UnionThree.svg" alt="" /><a href="/" className="">EMAIL US</a>
                     </li>
                     <li className='flex justify-end mr-2 lg:mr-2 xl:mr-3 2xl:mr-3 xxl:mr-4 my-1 lg:my-0 xl:my-0 2xl:my-0 xxl:my-0'>
-                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/Photos/unionRoadMap.png
-                        " alt="" /><a href="/" className="">TWITTER</a>
+                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/SVGs/UnionThree.svg" alt="" /><a href="/" className="">TWITTER</a>
                     </li>
                     <li className='flex justify-end mr-2 lg:mr-2 xl:mr-3 2xl:mr-3 xxl:mr-4 my-1 lg:my-0 xl:my-0 2xl:my-0 xxl:my-0'>
-                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/Photos/unionRoadMap.png
-                        " alt="" /><a href="/" className="">PRIVACY</a>
+                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/SVGs/UnionThree.svg" alt="" /><a href="/" className="">PRIVACY</a>
                     </li>
                     <li className='flex justify-end mr-2 lg:mr-2 xl:mr-3 2xl:mr-3 xxl:mr-4 my-1 lg:my-0 xl:my-0 2xl:my-0 xxl:my-0'>
-                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/Photos/unionRoadMap.png
-                        " alt="" /><a href="/" className="">T & C</a>
+                        <img className='h-5 lg:h-5 xl:h-5 2xl:h-7 xxl:h-8 px-2' src="/SVGs/UnionThree.svg" alt="" /><a href="/" className="">T & C</a>
                     </li>
                     <li>
-                        <button className='text-sm lg:text-base xl:text-base 2xl:text-xl xxl:text-2xl hidden lg:block xl:block border border-gray-400 rounded mx-0 lg:mx-2 xl:mx-2 py-1 px-1 lg:px-2 xl:px-3 text-gray-400'> PURCHASE VOLCOIN </button>
+                        <button className='text-sm lg:text-base xl:text-base 2xl:text-xl xxl:text-2xl hidden lg:block xl:block border btn-simple rounded mx-0 lg:mx-2 xl:mx-2 py-1 px-1 lg:px-2 xl:px-3 text-color'> PURCHASE VOLCOIN </button>
                     </li>
                 </ul>
             </div>
