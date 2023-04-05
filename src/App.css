@@ -72,10 +72,15 @@
   font-family: 'volmed';
 }
 
+.text-border-white {
+  color: transparent;
+  -webkit-text-stroke: 1px white; 
+}
 .text-border {
   color: transparent;
   -webkit-text-stroke: 1px #141414; 
 }
+
 .text-normal {
   color: #141414;
   -webkit-text-stroke: 0px; 
@@ -114,4 +119,18 @@ background-color: #141414;
   object-fit: cover;
   overflow: hidden;
 }
+
+.btn-style
+{
+  background: conic-gradient(from -12.68deg at 0% 0%, #E4FF1A -112.36deg, #E4FF1A 23.69deg, #A9FFF7 64.81deg, #E4FF1A 159.38deg, #A9FFF7 215.48deg, #E4FF1A 247.64deg, #E4FF1A 383.69deg);
+border-radius: 6px;
+}
+
+.text-style
+{
+  background: conic-gradient(from -12.68deg at 0% 0%, #E4FF1A -112.36deg, #E4FF1A 23.69deg, #A9FFF7 64.81deg, #E4FF1A 159.38deg, #A9FFF7 215.48deg, #E4FF1A 247.64deg, #E4FF1A 383.69deg);
+color: transparent;
+background-clip: text;
+}
+
 }
