@@ -6,7 +6,7 @@ import { ReactComponent as IconThree } from './UnionThree.svg';
 export default function RoadMap() {
 const content = {
 "one": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"> Q2 2022 </span>
+<span className="text-md text-style"> Q2 2022 </span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-1/2 xl:w-1/2">
 Whitepaper and static website
 </h1>
@@ -31,7 +31,7 @@ Market feasibility research </p>
 
 </>,
 "two": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"> Q3 2022 </span>
+<span className="text-md text-style"> Q3 2022 </span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-1/2 xl:w-1/2">
 Form the team </h1>
 <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -49,7 +49,7 @@ Re-make the website to make it more professional and appealing </p>
 
 </>,
 "three": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"> Q1 2023 </span>
+<span className="text-md text-style"> Q1 2023 </span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-1/2 xl:w-1/2">
 Create GVolCoins and Marketing
 </h1>
@@ -83,7 +83,7 @@ Legal preparation for regulation compliance
 </section>
 </>,
 "four": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"> Q1 2023 </span>
+<span className="text-md text-style"> Q1 2023 </span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-1/2 xl:w-1/2">
 VolCoin Tokens </h1>
 <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -106,7 +106,7 @@ Digital content collaborations </p>
 </section>
 </>,
 "five": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"> Q2 2023 </span>
+<span className="text-md text-style"> Q2 2023 </span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-2/3 xl:w-2/3">
 Gather Feedback and Apply Changes </h1>
 <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -119,7 +119,7 @@ Amend the underlying index so that it uses a weighted price feed from different 
 </section>
 </>,
 "six": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"> Q2 2023 </span>
+<span className="text-md text-style"> Q2 2023 </span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-1/2 xl:w-1/2">
 Launch VolCoin </h1>
 <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -152,7 +152,7 @@ Web3 Platform optimisation </p>
 </section>
 </>,
 "seven": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"> Q3 2024 </span>
+<span className="text-md text-style"> Q3 2024 </span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-1/2 xl:w-1/2">
 Staking </h1>
 <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -165,7 +165,7 @@ Fix staking of VolCoin and GVolCoin so fees can be fed back to coin holders, via
 </section>
 </>,
 "eight": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"> Q4 2024 </span>
+<span className="text-md text-style"> Q4 2024 </span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-1/2 xl:w-1/2">
 Onward </h1>
 <section className="mt-4 lg:mt-7 xl:mt-7">
@@ -178,7 +178,7 @@ Allow the token to be traded with other central exchanges and DEX’s
 </section>
 </>,
 "nine": <>
-<span className="text-md text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-lime-200 to-yellow-300"></span>
+<span className="text-md text-style"></span>
 <h1 className=" pt-3 text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl xxl:text-4xl lg:w-4/5 xl:w-4/5">
 Work on the next Volatility Coin or Commodity to be Tokenised </h1>
 </>
@@ -239,7 +239,7 @@ if (idx === 0 || idx === 1) {
 colorClass = "flex text-white";
 icon = <IconOne className={`lg:absolute mt-3 lg:mt-0 h-5 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
 } else if (idx === 2) {
-colorClass = "flex text-transparent bg-clip-text bg-gradient-to-r from-lime-400 via-yellow-300 to-lime-100";
+colorClass = "flex text-style";
 icon = <IconTwo className={`lg:absolute roadMapIcon lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
 } else {
 colorClass = "flex text-zinc-700";
