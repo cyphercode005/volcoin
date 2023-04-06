@@ -244,10 +244,8 @@ export default function ParalexScrol() {
           {styles.map((i) => (
             <div key={i} className={`${i}`}>
               <div className="scrolling-text inline-block  will-change-transform  backface-invisible"> 
-              <span className="text-6xl lg:text-8xl xl:text-8xl 2xl:text-10xl xxl:text-11xl scrolling-text-content whitespace-nowrap leading-none">
-                 <span className="text-border">VOLCOIN</span>
-                 <span className="text-normal"> ↂ</span>
-              </span>
+                 <span className="text-border text-6xl lg:text-8xl xl:text-8xl 2xl:text-10xl xxl:text-11xl scrolling-text-content whitespace-nowrap leading-none">VOLCOIN</span>
+                 <span className="text-normal text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl xxl:text-7xl scrolling-text-content whitespace-nowrap leading-none"> ↂ</span>
               </div>
             </div>
           ))}
