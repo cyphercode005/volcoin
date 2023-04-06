@@ -119,31 +119,3 @@ background-color: #141414;
 {
 background-color: #141414; 
 }
-
-/* .imojiVolcoin
-{
-  background-color: transparent;
-  color: black;
-} */
-
-/* @media only screen and (min-width: 768px) {
-
-.video-container {
-  position: relative;
-  height: 92vh; 
-  width: 100vw;  
-}
-
-.video-container video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  overflow: hidden;
-}
-} */
-
-
-
