@@ -31,22 +31,16 @@ export default function ParalexScrol() {
 
         // Init variables and config
         var scrollingText = container.find(".scrolling-text"),
-          scrollingTextWidth = scrollingText.outerWidth(),
-          scrollingTextHeight = scrollingText.outerHeight(true),
-          startLetterIndent =
-            parseInt(
-              scrollingText.find(".scrolling-text-content").css("font-size"),
-              10
-            ) / 4.8,
-          startLetterIndent = Math.round(startLetterIndent),
-          scrollAmountBoundary = Math.abs(
-            $(window).width() - scrollingTextWidth
-          ),
-          transformAmount = 0,
-          leftBound = 0,
-          rightBound = scrollAmountBoundary,
-          transformDirection = container.hasClass("left-to-right") ? -1 : 1,
-          transformSpeed = 6;
+        scrollingTextWidth = scrollingText.outerWidth(),
+        scrollingTextHeight = scrollingText.outerHeight(true),
+        startLetterIndent = parseInt(scrollingText.find(".scrolling-text-content").css("font-size"), 10) / 4.8,
+        // startLetterIndentRounded = Math.round(startLetterIndent),
+        scrollAmountBoundary = Math.abs($(window).width() - scrollingTextWidth),
+        transformAmount = 0,
+        leftBound = 0,
+        rightBound = scrollAmountBoundary,
+        transformDirection = container.hasClass("left-to-right") ? -1 : 1,
+        transformSpeed = 6;
 
         // Read transform speed
         if (container.attr("speed")) {
@@ -132,7 +126,7 @@ export default function ParalexScrol() {
               scrollAmountBoundary +
               startLetterIndent;
           } else if (transformAmount > rightBound) {
-            var activeText = getActiveScrollingText("right");
+            let activeText = getActiveScrollingText("right");
             activeText.css({
               left:
                 Math.round(
@@ -194,7 +188,7 @@ export default function ParalexScrol() {
               scrollAmountBoundary +
               startLetterIndent;
           } else if (transformAmount > rightBound) {
-            var activeText = getActiveScrollingText("right");
+            let activeText = getActiveScrollingText("right");
             activeText.css({
               left:
                 Math.round(
