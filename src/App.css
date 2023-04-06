@@ -78,7 +78,7 @@
 }
 .text-border {
   color: transparent;
-  -webkit-text-stroke: 1px #141414; 
+  -webkit-text-stroke: 2px #141414; 
 }
 
 .text-normal {
