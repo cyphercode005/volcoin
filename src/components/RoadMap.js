@@ -1,7 +1,8 @@
 import React from "react";
-import { ReactComponent as IconOne } from './UnionOne.svg';
-import { ReactComponent as IconTwo } from './UnionTwo.svg';
-import { ReactComponent as IconThree } from './UnionThree.svg';
+import { ReactComponent as IconOne } from './UnionOneNew.svg';
+// import { ReactComponent as IconOne } from './UnionOneNew.svg';
+import { ReactComponent as IconTwo } from './UnionOneNew.svg';
+import { ReactComponent as IconThree } from './UnionOneNew.svg';
 
 export default function RoadMap() {
 
@@ -56,7 +57,7 @@ Re-make the website to make it more professional and appealing </p>
 </>,
 "three": <>
 <span className="text-md text-style"> Q1 2023 </span>
-<h1 className=" pt-3 text-xl lg:text-3xl 2xl:text-4xl lg:w-1/2">
+<h1 className=" pt-3 text-xl lg:text-3xl 2xl:text-4xl lg:w-3/5 2xl:w-1/2">
 Create GVolCoins and Marketing
 </h1>
 <section className="mt-4 lg:mt-7">
@@ -216,8 +217,8 @@ return null
 }
 
 return (
-<div className="volmed ml-4 lg:ml-16 xl:ml-16 text-white flex justify-between">
-<div className="pt-12 lg:mt-16 xl:mt-16 w-3/4 lg:w-4/5 xl:w-4/5">
+<div className="relative volmed ml-4 lg:ml-16 xl:ml-16 text-white flex justify-between">
+<div className="pt-0 lg:mt-0 xl:mt-4 w-3/4 lg:w-4/5 xl:w-4/5">
 <span className=" leading-none text-5xl lg:text-9xl xl:text-9xl 2xl:text-9xl xxl:text-10xl "> Our Roadmap </span>
 <p className="pl-3 pt-6 lg:pt-10 xl:pt-10 2xl:pt-10 xxl:pt-10 text-md lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl lg:w-3/5 xl:w-3/5">
 With volatility a constant threat to any crypto currency trader, we
@@ -231,26 +232,26 @@ the unpredictable swings in the market.
 {getContent(active)}
 </div>
 </section>
-<ul className="volreg gap-0 pr-0 lg:pr-16 xl:pr-16 2xl:pr-16 xxl:pr-16 mt-8 lg:mt-24 xl:mt-24 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-full lg:w-1/3 xl:w-1/2">
+<ul className="volreg gap-0 pr-0 lg:pr-16 xl:pr-16 2xl:pr-16 xxl:pr-16 mt-8 lg:mt-24 xl:mt-8 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-full lg:w-1/3 xl:w-1/2">
 <div className=" w-full relative flex lg:flex-col xl:flex-col 2xl:flex-col xxl:flex-col">
-<div className="hidden lg:block h-full absolute bg-white w-1 left-2"></div>
+<div className="hidden lg:block h-full absolute bg-white w-0.5 left-2"></div>
 {["Phase One.", "Phase Two.", "Phase Three.", "Phase Four.", "Phase Five.", "Phase Six.", "Phase Seven.", "Phase Eight.", "Phase Nine."].map((item, idx) => {
 let colorClass = "";
 let icon = null;
 if (idx === 0 || idx === 1) {
 colorClass = "flex text-white";
-icon = <IconOne className={`lg:absolute mt-3 lg:mt-0 h-5 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+icon = <IconOne className={`ml-0 lg:absolute mt-3 lg:mt-0 h-5 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
 } else if (idx === 2) {
 colorClass = "flex text-style";
-icon = <IconTwo className={`lg:absolute roadMapIcon lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+icon = <IconTwo className={`lg:absolute lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
 } else {
 colorClass = "flex text-color";
-icon = <IconThree className={`lg:absolute roadMapIcon mt-3 lg:mt-0 h-5 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+icon = <IconThree className={`lg:absolute mt-3 lg:mt-0 h-5 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
 }
 return (
-<button className={`${colorClass} py-2 px-0.5 lg:px-0 xl:px-0 2xl:px-0 xxl:px-0`} onClick={(e) => handleOnClick(e, idx)}>
+<button className={`${colorClass} py-2 lg:pb-2 px-0.5 lg:px-0 xl:px-0 2xl:px-0 xxl:px-0`} onClick={(e) => handleOnClick(e, idx)}>
 {icon}
-<span className='text-xs lg:text-xl xl:text-xl 2xl:text-2xl xxl:text-2xl lg:ml-5 px-0 lg:px-5 xl:px-5 hidden lg:block xl:block 2xl:block xxl:block'>
+<span className='text-xs lg:text-xl lg:ml-5 px-0 lg:px-5 hidden lg:block lg:pb-1 lg:pt-2'>
 {item}
 </span>
 </button>
@@ -261,7 +262,7 @@ return (
 </div>
 </div>
 <div className="">
-<img className="w-24 lg:w-80 xl:w-80 h-60 lg:h-full xl:h-full" src="/Photos/roadmap2.png" alt="" />
+<img className="absolute -top-16 right-0 w-24 lg:w-80 ht-phone lg:ht-desk" src="/Photos/roadmap2.png" alt="" />
 </div>
 </div>
 );

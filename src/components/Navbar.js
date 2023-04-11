@@ -20,7 +20,7 @@ export default function Navbar() {
         <span className='invisible lg:visible text-white text-xs lg:text-lg 2xl:text-xl'>VOLCOIN</span>
       </section>  
       <section className='flex pr-4 lg:pr-16'>
-        <button className='hidden lg:block rounded text-color
+        <button className='hidden lg:block rounded text-white
 px-3 mx-0 lg:mx-2 text-xs lg:text-base 2xl:text-2xl' onClick={handleOpenModal}> WHITEPAPER </button>
         <button className='border btn-simple rounded mx-0 lg:mx-2 py-1 px-2 lg:px-3 text-color text-xs lg:text-base 2xl:text-2xl'> PURCHASE VOLCOIN </button>  
       </section>
