@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import ParalexScrol from './components/ParalexScrol';
+// import Paranew from './components/Paranew';
 import WhyUs from './components/WhyUs';
 import OurTeam from './components/OurTeam';
 import RoadMap from './components/RoadMap';
@@ -15,7 +16,8 @@ function App() {
 <div class=" bg-[url('/public/Photos/bg.jpg')]">
         <Navbar />
         <Hero/>
-        <ParalexScrol />
+        <ParalexScrol/>
+        {/* <Paranew/> */}
         {/* <Animation/> */}
         <Content />
         <WhyUs />

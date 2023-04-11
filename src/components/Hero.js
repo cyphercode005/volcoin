@@ -13,8 +13,12 @@ export default function Hero() {
   };
   return (
     <>
-      <div className="volmed mt-12 lg:mt-16 2xl:mt-48 xxl:mt-60 mb-10 ml-4 lg:ml-16 ">
-        <div className=" text-white pr-4 lg:pr-56 xxl:pr-96 text-6xl lg:text-9xl 2xl:text-11xl leading-none">
+      <div className="volreg mt-12 lg:mt-28 2xl:mt-48 xxl:mt-60 mb-10 ml-4 lg:ml-16 ">
+        <div>
+          <img className="hero1" src="/Photos/hero1.png" alt="" />
+          <img className="hero2" src="/Photos/hero2.png" alt="" />
+        </div>
+        <div className=" text-white pr-4 leading-none lg:pr-56 xxl:pr-96 text-6xl lg:text-9xl 2xl:text-11xl ">
           A <span className="text-border-white">coin</span>  built on the <span className="text-border-white">Vol</span>itility of Bitcoin
         </div>
         <div className="flex flex-col lg:flex-row text-gray-300 mt-10 w-full lg:w-3/5 2xl:w-1/2 pr-10 lg:pr-0 2xl:pr-20 2xl:text-xl">

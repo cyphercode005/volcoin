@@ -10,6 +10,10 @@ module.exports = {
         '110': '32rem',
         '120': '50rem',
         
+      },
+      lineHeight: {
+        'volline': '176px',
+        // '12': '3rem',
       }
     },
     screens: {
@@ -47,6 +51,7 @@ module.exports = {
         '9xl': '128px',
         '10xl': '9rem',
         '11xl': '10.5rem',
+        '12xl': '12rem',
       }
   },
   plugins: [],
