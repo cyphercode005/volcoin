@@ -1,8 +1,10 @@
 import React from "react";
-import { ReactComponent as IconOne } from './UnionOneNew.svg';
 // import { ReactComponent as IconOne } from './UnionOneNew.svg';
-import { ReactComponent as IconTwo } from './UnionOneNew.svg';
-import { ReactComponent as IconThree } from './UnionOneNew.svg';
+// import { ReactComponent as IconTwo } from './UnionOneNew.svg';
+// import { ReactComponent as IconThree } from './UnionOneNew.svg';
+import { ReactComponent as IconOne } from './UnionOne.svg';
+import { ReactComponent as IconTwo } from './UnionTwo.svg';
+import { ReactComponent as IconThree } from './UnionThree.svg';
 
 export default function RoadMap() {
 
@@ -240,18 +242,18 @@ let colorClass = "";
 let icon = null;
 if (idx === 0 || idx === 1) {
 colorClass = "flex text-white";
-icon = <IconOne className={`ml-0 lg:absolute mt-3 lg:mt-0 h-5 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+icon = <IconOne className={`ml-0 lg:absolute mt-3 lg:mt-0 h-5 lg:h-6`} />;
 } else if (idx === 2) {
 colorClass = "flex text-style";
-icon = <IconTwo className={`lg:absolute lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+icon = <IconTwo className={`lg:absolute roadMapIcon h-8 lg:h-6`} />;
 } else {
 colorClass = "flex text-color";
-icon = <IconThree className={`lg:absolute mt-3 lg:mt-0 h-5 lg:h-7 xl:h-8 2xl:h-8 xxl:h-8`} />;
+icon = <IconThree className={`lg:absolute roadMapIcon mt-3 lg:mt-0 h-5 lg:h-6`} />;
 }
 return (
-<button className={`${colorClass} py-2 lg:pb-2 px-0.5 lg:px-0 xl:px-0 2xl:px-0 xxl:px-0`} onClick={(e) => handleOnClick(e, idx)}>
+<button className={`${colorClass} py-3 px-0.5 lg:px-0 xl:px-0 2xl:px-0 xxl:px-0`} onClick={(e) => handleOnClick(e, idx)}>
 {icon}
-<span className='text-xs lg:text-xl lg:ml-5 px-0 lg:px-5 hidden lg:block lg:pb-1 lg:pt-2'>
+<span className='text-xs lg:text-xl lg:ml-5 px-0 lg:px-5 hidden lg:block'>
 {item}
 </span>
 </button>

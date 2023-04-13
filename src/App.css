@@ -47,10 +47,37 @@
 }
 
 .para-scroll {
-  background: linear-gradient(#dff345, #e1f548, #e5fa47, #e1f82f, #e2f83f, #e6fc44, #e1f73d);
-
+  background: linear-gradient(to bottom right, #dff345, #e1f548, #e5fa47, #e1f82f, #e2f83f);
 }
 
+/* .card {
+  /* display: inline-block; */
+/* }  */
+
+.card-one
+{
+  background: linear-gradient(to bottom left, black, #e1f548, #e5fa47, #e1f82f); 
+}
+.card-two
+{
+  background: linear-gradient(to bottom left, white, black, #e1f548, #e5fa47, #e1f82f); 
+}
+.card-three
+{
+  background: linear-gradient(to bottom left, white, #dff345, #e1f548, #e5fa47, #e1f82f);
+}
+.card-four
+{
+  background: linear-gradient(to bottom left, white, #dff345, #e1f548, #e5fa47, #e1f82f);
+}
+.card-five
+{
+  background: linear-gradient(to bottom left, #dff345, #e1f548, #e5fa47,white #e1f82f);
+}
+.card-six
+{
+  background: linear-gradient(to bottom left, #dff345, #e1f548, #e5fa47, #e1f82f, white); 
+}
 @font-face {
   font-family: 'volreg';
   src: url('/public/Fonts/volreg.ttf') format('truetype');
