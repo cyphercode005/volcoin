@@ -1,16 +1,19 @@
 import React from "react";
-// import { ReactComponent as IconOne } from './UnionOneNew.svg';
-// import { ReactComponent as IconTwo } from './UnionOneNew.svg';
-// import { ReactComponent as IconThree } from './UnionOneNew.svg';
+// import { useState } from 'react';
 import { ReactComponent as IconOne } from './UnionOne.svg';
 import { ReactComponent as IconTwo } from './UnionTwo.svg';
 import { ReactComponent as IconThree } from './UnionThree.svg';
 
 export default function RoadMap() {
 
-    const [active, setActive] = React.useState(1);
+const [active, setActive] = React.useState(1);
+// const [hovered, setHovered] = useState(false);
+// const [hoveredIndex, setHoveredIndex] = useState(null);
+// const handleHover = (index) => {
+// setHoveredIndex(index);
+// };
 const handleOnClick = (ev, id) => {
-setActive(id + 1)
+  setActive(id + 1)
 }
 
 const content = {
@@ -193,6 +196,8 @@ Work on the next Volatility Coin or Commodity to be Tokenised </h1>
 </>
 }
 
+
+
 const getContent = (number) => {
 switch (number) {
 case 1:
@@ -235,23 +240,27 @@ the unpredictable swings in the market.
 </div>
 </section>
 <ul className="volreg gap-0 pr-0 lg:pr-16 xl:pr-16 2xl:pr-16 xxl:pr-16 mt-8 lg:mt-24 xl:mt-8 pl-0 lg:pl-20 xl:pl-20 ml-0 lg:ml-3 xl:ml-3 w-full lg:w-1/3 xl:w-1/2">
-<div className=" w-full relative flex lg:flex-col xl:flex-col 2xl:flex-col xxl:flex-col">
-<div className="hidden lg:block h-full absolute bg-white w-0.5 left-2"></div>
+<div className=" w-full relative flex lg:flex-col">
+<div className="hidden lg:block h-full absolute candle-line w-0.5 left-2"></div>
 {["Phase One.", "Phase Two.", "Phase Three.", "Phase Four.", "Phase Five.", "Phase Six.", "Phase Seven.", "Phase Eight.", "Phase Nine."].map((item, idx) => {
 let colorClass = "";
 let icon = null;
 if (idx === 0 || idx === 1) {
 colorClass = "flex text-white";
-icon = <IconOne className={`ml-0 lg:absolute mt-3 lg:mt-0 h-5 lg:h-6`} />;
+icon = <IconOne className= "lg:absolute roadMapIcon ml-0 mt-3 lg:mt-0 h-5 lg:h-6"/>;
 } else if (idx === 2) {
 colorClass = "flex text-style";
-icon = <IconTwo className={`lg:absolute roadMapIcon h-8 lg:h-6`} />;
+icon = <IconTwo className="lg:absolute roadMapIcon h-8 lg:h-6" />;
 } else {
 colorClass = "flex text-color";
-icon = <IconThree className={`lg:absolute roadMapIcon mt-3 lg:mt-0 h-5 lg:h-6`} />;
+icon = <IconThree className="lg:absolute roadMapIcon ml-0 mt-3 lg:mt-0 h-5 lg:h-6" />;
 }
 return (
-<button className={`${colorClass} py-3 px-0.5 lg:px-0 xl:px-0 2xl:px-0 xxl:px-0`} onClick={(e) => handleOnClick(e, idx)}>
+<button className={` ${colorClass} py-3 px-0.5 lg:px-0 xl:px-0 2xl:px-0 xxl:px-0 hover:text-style flex `}  
+onClick={(e) => handleOnClick(e, idx)}
+//  onMouseEnter={() => handleHover(idx)}
+//  onMouseLeave={() => setHoveredIndex(null)}
+> 
 {icon}
 <span className='text-xs lg:text-xl lg:ml-5 px-0 lg:px-5 hidden lg:block'>
 {item}
