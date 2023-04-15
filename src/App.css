@@ -47,37 +47,24 @@
 }
 
 .para-scroll {
-  background: linear-gradient(to bottom right, #dff345, #e1f548, #e5fa47, #e1f82f, #e2f83f);
+  background: linear-gradient(195deg, #e5fa47, #e5fa47, #c0d806, #c0d806, #e5fa47, #e5fa47,  #daec4b, #daec4b, #cddf46, #cddf46, #daec4b, #daec4b) ;
+}
+.para-scroll-two {
+  background: linear-gradient(195deg, #daec4b, #e5fa47, #e5fa47, #c0d806,  #c0d806, #e5fa47,  #e5fa47, #daec4b, #daec4b, #cddf46, #cddf46, #daec4b);
+}
+.para-scroll-three {
+  background: linear-gradient(195deg, #daec4b, #daec4b, #e5fa47,  #e5fa47, #c0d806, #c0d806,  #e5fa47, #e5fa47, #daec4b, #daec4b, #cddf46, #cddf46);
+}
+.para-scroll-four {
+  background: linear-gradient(195deg, #cddf46,  #daec4b, #daec4b,  #e5fa47, #e5fa47,  #c0d806, #c0d806, #e5fa47, #e5fa47, #daec4b, #daec4b, #cddf46);
+}
+.para-scroll-five {
+  background: linear-gradient(195deg, #cddf46,  #cddf46, #daec4b,  #daec4b, #e5fa47,  #e5fa47, #c0d806, #c0d806, #e5fa47, #e5fa47, #daec4b, #daec4b);
+}
+.para-scroll-six {
+  background: linear-gradient(195deg, #daec4b,  #cddf46, #cddf46,  #daec4b, #daec4b,  #e5fa47, #e5fa47, #c0d806, #c0d806, #e5fa47, #e5fa47, #daec4b);
 }
 
-/* .card {
-  /* display: inline-block; */
-/* }  */
-
-.card-one
-{
-  background: linear-gradient(to bottom left, black, #e1f548, #e5fa47, #e1f82f); 
-}
-.card-two
-{
-  background: linear-gradient(to bottom left, white, black, #e1f548, #e5fa47, #e1f82f); 
-}
-.card-three
-{
-  background: linear-gradient(to bottom left, white, #dff345, #e1f548, #e5fa47, #e1f82f);
-}
-.card-four
-{
-  background: linear-gradient(to bottom left, white, #dff345, #e1f548, #e5fa47, #e1f82f);
-}
-.card-five
-{
-  background: linear-gradient(to bottom left, #dff345, #e1f548, #e5fa47,white #e1f82f);
-}
-.card-six
-{
-  background: linear-gradient(to bottom left, #dff345, #e1f548, #e5fa47, #e1f82f, white); 
-}
 @font-face {
   font-family: 'volreg';
   src: url('/public/Fonts/volreg.ttf') format('truetype');
@@ -120,9 +107,20 @@ color: transparent;
 background-clip: text;
 }
 
+.uni-style
+{
+  /* color: conic-gradient(from -12.68deg at 0% 0%, #E4FF1A -112.36deg, #E4FF1A 23.69deg, #A9FFF7 64.81deg, #E4FF1A 159.38deg, #A9FFF7 215.48deg, #E4FF1A 247.64deg, #E4FF1A 383.69deg); */
+  color: #E4FF5A;
+}
+
 .text-color
 {
   color: #898988;
+}
+.candle-line
+{
+  background: linear-gradient(to bottom, white 25%, #898988 25%,  #898988 100%);
+  /* background: #898988 */
 }
 .btn-style
 {
