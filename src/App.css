@@ -45,24 +45,24 @@
 .scrolling-text .scrolling-text-content {
   transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
 }
-
+E4FF1A
 .para-scroll {
-  background: linear-gradient(195deg, #e5fa47, #e5fa47, #c0d806, #c0d806, #e5fa47, #e5fa47,  #daec4b, #daec4b, #cddf46, #cddf46, #daec4b, #daec4b) ;
+  background: linear-gradient(195deg, #e5fa47, #e5fa47, #E4FF1A, #E4FF1A, #e5fa47, #e5fa47,  #daec4b, #daec4b, #cddf46, #cddf46, #daec4b, #daec4b) ;
 }
 .para-scroll-two {
-  background: linear-gradient(195deg, #daec4b, #e5fa47, #e5fa47, #c0d806,  #c0d806, #e5fa47,  #e5fa47, #daec4b, #daec4b, #cddf46, #cddf46, #daec4b);
+  background: linear-gradient(195deg, #daec4b, #e5fa47, #e5fa47, #E4FF1A,  #E4FF1A, #e5fa47,  #e5fa47, #daec4b, #daec4b, #cddf46, #cddf46, #daec4b);
 }
 .para-scroll-three {
-  background: linear-gradient(195deg, #daec4b, #daec4b, #e5fa47,  #e5fa47, #c0d806, #c0d806,  #e5fa47, #e5fa47, #daec4b, #daec4b, #cddf46, #cddf46);
+  background: linear-gradient(195deg, #daec4b, #daec4b, #e5fa47,  #e5fa47, #E4FF1A, #E4FF1A,  #e5fa47, #e5fa47, #daec4b, #daec4b, #cddf46, #cddf46);
 }
 .para-scroll-four {
-  background: linear-gradient(195deg, #cddf46,  #daec4b, #daec4b,  #e5fa47, #e5fa47,  #c0d806, #c0d806, #e5fa47, #e5fa47, #daec4b, #daec4b, #cddf46);
+  background: linear-gradient(195deg, #cddf46,  #daec4b, #daec4b,  #e5fa47, #e5fa47,  #E4FF1A, #E4FF1A, #e5fa47, #e5fa47, #daec4b, #daec4b, #cddf46);
 }
 .para-scroll-five {
-  background: linear-gradient(195deg, #cddf46,  #cddf46, #daec4b,  #daec4b, #e5fa47,  #e5fa47, #c0d806, #c0d806, #e5fa47, #e5fa47, #daec4b, #daec4b);
+  background: linear-gradient(195deg, #cddf46,  #cddf46, #daec4b,  #daec4b, #e5fa47,  #e5fa47, #E4FF1A, #E4FF1A, #e5fa47, #e5fa47, #daec4b, #daec4b);
 }
 .para-scroll-six {
-  background: linear-gradient(195deg, #daec4b,  #cddf46, #cddf46,  #daec4b, #daec4b,  #e5fa47, #e5fa47, #c0d806, #c0d806, #e5fa47, #e5fa47, #daec4b);
+  background: linear-gradient(195deg, #daec4b,  #cddf46, #cddf46,  #daec4b, #daec4b,  #e5fa47, #e5fa47, #E4FF1A, #E4FF1A, #e5fa47, #e5fa47, #daec4b);
 }
 
 @font-face {
@@ -172,12 +172,11 @@ text-align: left;
     height: 16rem;  }
 }
 
-/* styles.css */
-
 .moving-text-container {
   position: relative;
   overflow: hidden;
-  width: 100%; /* Add a width to the container to ensure text visibility */
+  width: 100%;
+  
 }
 
 .moving-text {
@@ -223,8 +222,7 @@ transform: rotate(3.31deg);
   width: 246.93px;
   height: 233.01px;
   left: 872.93px;
-  top: 0px;
-  
+top:0px;
   
   /* Base/Black */
   
