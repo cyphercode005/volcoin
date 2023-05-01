@@ -45,9 +45,8 @@
 .scrolling-text .scrolling-text-content {
   transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
 }
-E4FF1A
-.para-scroll {
-  background: linear-gradient(195deg, #e5fa47, #e5fa47, #E4FF1A, #E4FF1A, #e5fa47, #e5fa47,  #daec4b, #daec4b, #cddf46, #cddf46, #daec4b, #daec4b) ;
+.para-scroll-one {
+  background: linear-gradient(195deg, #e5fa47, #e5fa47, #c0d806, #c0d806, #e5fa47, #e5fa47,  #daec4b, #daec4b, #cddf46, #cddf46, #daec4b, #daec4b) ;
 }
 .para-scroll-two {
   background: linear-gradient(195deg, #daec4b, #e5fa47, #e5fa47, #E4FF1A,  #E4FF1A, #e5fa47,  #e5fa47, #daec4b, #daec4b, #cddf46, #cddf46, #daec4b);
