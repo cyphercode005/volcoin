@@ -199,17 +199,13 @@ text-align: left;
   line-height: 100px;
 }
 
-.hero2
+/* .hero2
 {
   position: absolute;
   width: 121.04px;
   height: 165.55px;
   left: 1101.15px;
   top: 208.08px;
-
-
-/* Gradients/Gradient_1 */
-
 background: conic-gradient(from -12.68deg at 0% 0%, #E4FF1A -112.36deg, #E4FF1A 23.69deg, #A9FFF7 64.81deg, #E4FF1A 159.38deg, #A9FFF7 215.48deg, #E4FF1A 247.64deg, #E4FF1A 383.69deg);
 opacity: 0.25;
 filter: blur(100px);
@@ -222,11 +218,7 @@ transform: rotate(3.31deg);
   width: 246.93px;
   height: 233.01px;
   left: 872.93px;
-top:0px;
-  
-  /* Base/Black */
-  
   background: #141414;
   filter: blur(50px);
   transform: rotate(10.58deg);
-}
+} */
