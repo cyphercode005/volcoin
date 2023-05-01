@@ -288,7 +288,7 @@ export default function ParalexScrol() {
   return (
     <>
       <div className="w-full h-80 lg:h-screen xl:h-100 2xl:h-110 xxl:h-120 flex relative overflow-hidden">
-        <div className="para-scroll w-1/12 mb-16 lg:mb-36 xl:mb-36">
+        <div className="para-scroll-one w-1/12 mb-16 lg:mb-36 xl:mb-36">
         </div>
         <div className="flex-1 flex">
           <div className="para-scroll-two flex-1   mt-3 lg:mt-6 xl:mt-6 mb-12 lg:mb-28 xl:mb-28">

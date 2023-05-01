@@ -46,7 +46,7 @@
   transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
 }
 
-.para-scroll {
+.para-scroll-one {
   background: linear-gradient(195deg, #e5fa47, #e5fa47, #c0d806, #c0d806, #e5fa47, #e5fa47,  #daec4b, #daec4b, #cddf46, #cddf46, #daec4b, #daec4b) ;
 }
 .para-scroll-two {
